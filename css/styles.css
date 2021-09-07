@@ -100,7 +100,7 @@ body {
   align-items: center;
 }
 
-#menu ul li a {
+#menu ul.wrap li a {
   display: table;
   margin: auto;
   position: relative;
@@ -142,11 +142,12 @@ body {
   z-index: 1000;
 }
 
-#menu .sub_wrap li a {
+#menu ul.sub_wrap li a {
   position: relative;
   display: block;
   z-index: 1000;
   text-align: center;
+  color: transparent;
 }
 
 #header .side_btn {
@@ -197,6 +198,14 @@ body {
 }
 
 #header .header-area.active #menu ul li a {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.39;
+  letter-spacing: -0.17px;
+  color: #161616;
+}
+
+#header .header-area.active #menu ul.sub_wrap li a {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.88;
@@ -204,7 +213,7 @@ body {
   color: #626262;
 }
 
-#header .header-area.active #menu ul li a:hover {
+#header .header-area.active #menu ul.sub_wrap li a:hover {
   font-weight: bold;
   color: #0075c1;
 }

@@ -41,22 +41,21 @@ header {
 }
 
 .swiper-slide:nth-child(1) {
-  background: url("../img/bg/index_bg_1.png") no-repeat;
-  background-size: cover;
+  background: url("../img/bg/index_bg_1.png") 0px 0px / 100% auto no-repeat;
 }
 
 .swiper-slide:nth-child(2) {
-  background: url("../img/bg/index_bg_2.png") no-repeat;
+  background: url("../img/bg/index_bg_2.png") 0px 0px / 100% auto no-repeat;
   background-size: cover;
 }
 
 .swiper-slide:nth-child(3) {
-  background: url("../img/bg/index_bg_3.png") no-repeat;
+  background: url("../img/bg/index_bg_3.png") 0px 0px / 100% auto no-repeat;
   background-size: cover;
 }
 
 .swiper-slide:nth-child(4) {
-  background: url("../img/bg/index_bg_4.png") no-repeat;
+  background: url("../img/bg/index_bg_4.png") 0px 0px / 100% auto no-repeat;
   background-size: cover;
 }
 
@@ -70,4 +69,26 @@ header {
   height: 100%;
   background: url("../img/bg/index_bg_5.png") no-repeat;
   background-size: cover;
+}
+
+.swiper-container-vertical > .swiper-pagination-bullets {
+  right: 11%;
+}
+
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #fabe00;
+  opacity: 1;
+  background: transparent;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fabe00;
+}
+
+.swiper-container-vertical
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 24px 0;
 }
