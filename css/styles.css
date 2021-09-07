@@ -1,6 +1,193 @@
-@import "reset.css";
-@import "media.css";
+@import "default.css";
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap");
+@import url("KoPubDotum.css");
+
+@import "index.css";
 
 body {
-  background-color: yellowgreen;
+  font-family: "KoPub Dotum", sans-serif;
+}
+#header {
+  width: 100%;
+  height: 100px;
+  margin: 0;
+}
+
+#header .header-area .logo {
+  background: url("../img/logo.png") no-repeat;
+  width: 202px;
+  height: 52px;
+}
+
+/* 메뉴 */
+#header .header-area {
+  position: relative;
+  width: 100%;
+  /* height: 100%; */
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#header .header-area.active {
+  background-color: #fff;
+}
+#header-middle-area {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding-top: 0;
+  z-index: 1000;
+}
+
+#header-middle-area .header-middle {
+  position: relative;
+  max-width: 1460px;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header h1 {
+  float: left;
+  margin-top: 8px;
+}
+
+#header h1 a {
+  display: block;
+}
+
+#header #menu {
+  height: 100%;
+}
+
+#menu ul {
+  position: relative;
+  z-index: 100;
+  height: 100%;
+}
+
+#menu ul li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li.menu_step01 {
+  height: 100%;
+}
+
+#menu ul li.menu_step01 .wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#menu ul li a {
+  display: block;
+  position: relative;
+  word-break: keep-all;
+  padding: 0 20px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.39;
+  letter-spacing: -0.17px;
+  color: #fff;
+}
+
+#menu ul li ul {
+  border: 1px solid;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: calc(100% - 35px);
+  width: -webkit- calc(100% - 35px);
+  width: -moz- calc(100% - 35px);
+  margin: 0 0 0 15px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  z-index: 1000;
+}
+
+#menu ul li ul li {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  min-width: 140px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  z-index: 1000;
+}
+
+#menu ul li ul li a {
+  position: relative;
+  display: block;
+  font-size: 100%;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  padding: 5px 0 5px 15px !important;
+  z-index: 1000;
+}
+
+header .side_btn {
+  display: flex;
+  align-items: center;
+}
+
+header .side_btn .language {
+  width: 26px;
+  height: 26px;
+  background: url("../img/icon/language.png") no-repeat;
+  cursor: pointer;
+}
+
+header .side_btn .bar {
+  width: 1px;
+  height: 14px;
+  background: #fff;
+  margin: 0 12px;
+}
+
+header .side_btn .munu_min {
+  font-family: "Orbitron";
+  font-size: 11px;
+  letter-spacing: normal;
+  line-height: 1.68;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+header .side_btn .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: inline-block;
+}
+
+#header .header-area.active .logo {
+  background: url("../img/logo_black.png") no-repeat;
+}
+
+#header .header-area.active #menu ul li a {
+  color: #161616;
+}
+
+footer {
+  width: 100%;
+  height: 225px;
+  background: #000000;
 }
