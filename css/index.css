@@ -216,6 +216,7 @@ header {
   letter-spacing: -3px;
   text-align: left;
   color: #fff;
+  word-break: break-word;
 }
 
 .slide_01 .column_title span {
@@ -229,6 +230,7 @@ header {
   line-height: 1.33;
   letter-spacing: -0.45px;
   color: #fff;
+  word-break: break-word;
 }
 
 .slide_01 .news_card {
@@ -629,6 +631,10 @@ header {
     padding: 0 4vw;
   }
 
+  .slide_05 .inner {
+    padding: 100px 4vw 0;
+  }
+
   .swiper-container-vertical > .swiper-pagination-bullets {
     right: 2vw;
   }
@@ -642,5 +648,12 @@ header {
   .slide_05 .stock_card {
     margin-right: 30px;
     padding: 16px 24px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .swiper-container-vertical > .swiper-pagination-bullets,
+  .scroll {
+    display: none !important;
   }
 }
