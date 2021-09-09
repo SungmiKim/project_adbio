@@ -17,7 +17,7 @@ function closeMenu() {
   var windowWidth = $(window).width();
   if ($("#header .header_area").height() > 100) {
     if (windowWidth <= 479) {
-      $("#header .header_area").stop().animate({ height: "70px" }, 150);
+      $("#header .header_area").stop().animate({ height: "50px" }, 150);
     } else {
       $("#header .header_area").stop().animate({ height: "100px" }, 150);
     }

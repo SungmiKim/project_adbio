@@ -5,6 +5,10 @@
 @import "/fonts/KoPubDotum.css";
 @import "index.css";
 
+html {
+  font-size: 18px;
+}
+
 body {
   font-family: "KoPub Dotum", sans-serif;
 }
@@ -518,7 +522,11 @@ body {
   }
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 414px) {
+  html {
+    font-size: 14px;
+  }
+
   #header .header_area.active #menu ul li span {
     font-size: 16px;
   }
@@ -531,7 +539,14 @@ body {
   #header,
   #header-middle-area,
   #header-middle-area .header-middle {
-    height: 70px;
+    height: 50px;
+  }
+
+  #header .side_btn .language {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icon/language.png) center / 22px 22px no-repeat;
   }
 
   #menu .menu_icon img {
