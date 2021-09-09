@@ -13,12 +13,15 @@
       crossorigin="anonymous"
     ></script>
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="../css/swiper.css" />
+    <link rel="stylesheet" href="../css/swiper/swiper.css" />
+    <link rel="stylesheet" href="../css/slick/slick.css" />
+    <link rel="stylesheet" href="../css/slick/slick-theme.css" />
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
+    <div class="menu_bg"></div>
     <header id="header">
-      <div class="header-area">
+      <div class="header_area">
         <div id="header-middle-area">
           <div class="header-middle">
             <div class="logo"></div>
@@ -168,7 +171,16 @@
             </div>
 
             <div class="side_btn">
-              <div class="language"></div>
+              <div class="language lang_icon">
+                <div class="balloon">
+                  <div class="balloon_column">
+                    <a href="index.html">한국어</a>
+                  </div>
+                  <div class="balloon_column">
+                    <a href="../eng/index.html">English</a>
+                  </div>
+                </div>
+              </div>
               <div class="bar"></div>
               <div class="munu_min">
                 <div>MENU</div>
@@ -184,25 +196,332 @@
         </div>
       </div>
     </header>
+    <!-- Main -->
     <!-- Swiper -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">
-          <div class="inner"></div>
-          <footer></footer>
+        <div class="swiper-slide slide_01">
+          <div class="inner">
+            <div class="autoplay slider" data-sizes="50vw">
+              <div class="column">
+                <div class="title_desc">차세대 면역항체 개발기업</div>
+                <div class="column_title">
+                  NEXT-GENERATION <br />
+                  IMMUNE ANTIBODY <br />
+                  <span>DEVELOPMENT BIO&nbsp;COMPANY</span>
+                </div>
+                <div class="desc_txt">
+                  AdBiotech is constantly trying to jump higher. <br />
+                  Welcome to global life sciences leading the more advanced IgY
+                  field.
+                </div>
+              </div>
+              <div class="column">
+                <div class="title_desc">차세대 면역항체 개발기업</div>
+                <div class="column_title">
+                  NEXT-GENERATION <br />
+                  IMMUNE ANTIBODY <br />
+                  <span>DEVELOPMENT BIO&nbsp;COMPANY</span>
+                </div>
+                <div class="desc_txt">
+                  AdBiotech is constantly trying to jump higher. <br />
+                  Welcome to global life sciences leading the more advanced IgY
+                  field.
+                </div>
+              </div>
+              <div class="column">
+                <div class="title_desc">차세대 면역항체 개발기업</div>
+                <div class="column_title">
+                  NEXT-GENERATION <br />
+                  IMMUNE ANTIBODY <br />
+                  <span>DEVELOPMENT BIO&nbsp;COMPANY</span>
+                </div>
+                <div class="desc_txt">
+                  AdBiotech is constantly trying to jump higher. <br />
+                  Welcome to global life sciences leading the more advanced IgY
+                  field.
+                </div>
+              </div>
+            </div>
+            <div class="news_card">
+              <div class="title">NEWS</div>
+              <div class="desc">
+                (주)애드바이오텍 홈페이지가 새롭게 오픈했습니다.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide_02">
+          <div class="inner">
+            <div class="txt">
+              <h2>
+                CREATE <br />
+                A BETTER FUTURE
+              </h2>
+              <div class="desc">
+                애드바이오텍㈜은 세계 유일의 축산, 수산, 인체용 면역항체 개발
+                선도기업으로 <br />
+                지난 16년간 축적된 기술 노하우로 백신과 항생제를 대체할 수
+                있는<br />
+                다양한 제품을 개발하고 있습니다.
+              </div>
+            </div>
+            <div class="card_wrap">
+              <div class="card_column">
+                <div class="txt">
+                  <h4>면역항체 생산 기술</h4>
+                  <span>끊임없는 연구개발과 열정적인</span>
+                  <span
+                    >도전정신으로 주목받는 생명과학기업으로 성장하겠습니다</span
+                  >
+                </div>
+                <img src="/img/icon/card_icon_01.png" alt="icon" title="icon" />
+              </div>
+              <div class="card_column">
+                <div class="txt">
+                  <h4>다양한 파이프라인</h4>
+                  <span>끊임없는 연구개발과 열정적인</span>
+                  <span
+                    >도전정신으로 주목받는 생명과학기업으로 성장하겠습니다</span
+                  >
+                </div>
+                <img src="/img/icon/card_icon_02.png" alt="icon" title="icon" />
+              </div>
+              <div class="card_column">
+                <div class="txt">
+                  <h4>매출 실현 기업</h4>
+                  <span>끊임없는 연구개발과 열정적인</span>
+                  <span
+                    >도전정신으로 주목받는 생명과학기업으로 성장하겠습니다</span
+                  >
+                </div>
+                <img src="/img/icon/card_icon_03.png" alt="icon" title="icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide_03">
+          <div class="inner">
+            <div class="txt">
+              <h2>A BETTER PRODUCT</h2>
+              <div class="desc">
+                애드바이오텍㈜은 lgY 기술을 기반으로 <br />
+                축산, 식품, 화장품 등 다양한 분야에서 핵심 제품을 개발하고
+                있습니다.
+              </div>
+            </div>
+            <div class="card_wrap">
+              <div class="card_column">
+                <img src="/img/main_card_01.png" alt="card" title="card" />
+              </div>
+              <div class="card_column">
+                <img src="/img/main_card_02.png" alt="card" title="card" />
+              </div>
+              <div class="card_column">
+                <img src="/img/main_card_03.png" alt="card" title="card" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide_04">
+          <div class="inner">
+            <div class="txt">
+              <h2>
+                GROW UP <br />
+                WITH ADBIOTECH
+              </h2>
+              <div class="desc">
+                애드바이오텍, 인체용·축산용·수산용 'IgY 면역항체' 개발하며 면역
+                산업 선도
+              </div>
+            </div>
+            <div class="card_wrap">
+              <div class="card_column">
+                <h3 class="title">
+                  애드바이오텍, 인체용·축산용·수산용 'IgY 면역항체' 개발하며
+                  면역 산업 선도
+                </h3>
+                <div class="desc">
+                  질병의 백신과 그 부작용에 대한 관심이 나날이 높아지고 있다.
+                  질병 예방에는 백신이 가장 중요하다. 그러나 안타깝게도 모든
+                  질병에 100% 완벽한 백신이 있다고 확신할 수는 없다. 부작용 없이
+                  질병을 예방하는 가장 근본적이고 효과적인 방법은 바로 몸의
+                  면역력을 증가시키는 것이다.
+                </div>
+                <div class="regdate">2021.06.21</div>
+              </div>
+              <div class="card_column">
+                <h3 class="title">
+                  애드바이오텍, 씽크리에이티브와 마케팅 전략적 제휴...
+                </h3>
+                <div class="desc">
+                  새로운 개념의 백신과 항생제 대체물질(IgY, Immunoglobulin in
+                  Yolk)인 인체용, 축산 및 수산용 항체제품, 기능성소재 및
+                  식품첨가물 등 환경친화적인 제품을 연구개발하는
+                  ㈜애드바이오텍(대표이사 정홍걸)과 건강기능식품과 제약분야의
+                  전문마케팅 기업인 종합광고대행사 ㈜씽크리에이티브(대표
+                  임대성)와...
+                </div>
+                <div class="regdate">2021.05.04</div>
+              </div>
+              <div class="card_column">
+                <h3 class="title">
+                  애드바이오텍-한국생명공학연구원, 건강기능식품 시장 본격 진출
+                </h3>
+                <div class="desc">
+                  ㈜애드바이오텍(대표이사 정홍걸)은 한국생명공학연구원(원장
+                  김장성)이 보유한 적소두 추출물을 이용한 기능성식품 원료의
+                  기술에 대해 이전 계약을 체결하고 건강기능성 식품 시장에
+                  본격적으로 진출한다. ㈜애드바이오텍은 8월 4일 대전에 위치한
+                  한국생명공학연구원 본원에서 관절, 아토피, 면역 및...
+                </div>
+                <div class="regdate">2022.08.06</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide_05">
+          <div class="container">
+            <div class="inner">
+              <div class="txt">
+                <h2>INVESTORS</h2>
+                <div class="desc">
+                  애드바이오텍㈜은 면역항체 산업을 선도하고 있습니다.
+                </div>
+              </div>
+              <div class="card_wrap">
+                <div class="card_column stock_card">
+                  <div class="title_column">
+                    <h3>현재가</h3>
+                    <span class="today"> 2021.06.28. 10:58:15 </span>
+                  </div>
+                  <div class="current_price">9,950 <span>KRW</span></div>
+                  <div class="current_info">
+                    <div class="column">
+                      <span class="name">거래량㈜</span>
+                      <span class="num">1,745 </span>
+                    </div>
+                    <div class="column">
+                      <span class="name">전일대비(원)</span>
+                      <span class="num range down">▼ 50</span>
+                    </div>
+                    <div class="column">
+                      <span class="name">등락률</span>
+                      <span class="num per">-0.5%</span>
+                    </div>
+                  </div>
+                  <div class="stock_info">
+                    <div class="column">
+                      <div class="total_col">
+                        <span class="name">KOSPI</span>
+                        <span class="num">3,227.95</span>
+                      </div>
+                      <div class="num_col">
+                        <span class="num range up">▲ 11.77</span>
+                        <span class="num per">+0.37%</span>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="total_col">
+                        <span class="name">KOSDAQ</span>
+                        <span class="num">987.46</span>
+                      </div>
+                      <div class="num_col">
+                        <span class="num range up">▲ 8.67</span>
+                        <span class="num per">+0.89%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card_column board_card">
+                  <h3>IR자료실</h3>
+                  <div class="content">
+                    <div class="column">
+                      <div class="title">
+                        [2020] 제21기 감사보고서 및 사업보고서
+                      </div>
+                      <div class="regdate">2021-04-30</div>
+                    </div>
+                    <div class="column">
+                      <div class="title">
+                        [2020] 제21기 감사보고서 및 사업보고서
+                      </div>
+                      <div class="regdate">2021-04-30</div>
+                    </div>
+                    <div class="column">
+                      <div class="title">
+                        [2020] 제21기 감사보고서 및 사업보고서
+                      </div>
+                      <div class="regdate">2021-04-30</div>
+                    </div>
+                    <div class="column">
+                      <div class="title">
+                        [2020] 제21기 감사보고서 및 사업보고서
+                      </div>
+                      <div class="regdate">2021-04-30</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer id="footer">
+            <div class="inner">
+              <img
+                src="/img/logo_footer.png"
+                alt="logo"
+                title="logo"
+                class="logo"
+              />
+              <div class="content">
+                <div class="wapper">
+                  <div class="column">
+                    <div class="name">애드바이오텍㈜</div>
+                    <div>CEO : 정홍걸</div>
+                    <div>사업자 등록번호 : 215-81-93416</div>
+                  </div>
+                  <div class="column">
+                    <div class="name">CONTACT</div>
+                    <div class="info">
+                      <div>
+                        전화 : 033-261-4907
+                        <span class="bar"></span>
+                      </div>
+                      <div>
+                        팩스 : 033-261-4920
+                        <span class="bar"></span>
+                      </div>
+                      <div>메일 : gildong@domain.com</div>
+                    </div>
+                    <div>주소 : 강원도 춘천시 동내면 거두단지 1길 39</div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="dropbtn">관련사이트</button>
+                    <div class="dropdown-content">
+                      <a href="#">홈</a>
+                      <a href="#">회사소개</a>
+                      <a href="#">제품소개</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="copyright">
+                  COPYRIGHT © 2021 ADBioTech., All rights reserved.
+                </div>
+              </div>
+            </div>
+          </footer>
         </div>
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
     </div>
-
+    <div class="scroll">
+      <img src="/img/icon/scroll.png" alt="scroll" title="scroll" />
+      <!-- <img src="/img/icon/scroll_black.png" alt="scroll" title="scroll" /> -->
+      <span>Scroll</span>
+    </div>
     <!-- Swiper JS -->
-    <script src="../js/swiper.js"></script>
-
+    <script src="../js/swiper/swiper.js"></script>
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".swiper-container", {
@@ -213,7 +532,8 @@
           enabled: true,
           onlyInViewport: false,
         },
-        touchRatio: 0, //드래그 금지
+        allowTouchMove: false,
+        // touchRatio: 0, //드래그 금지
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -221,37 +541,53 @@
         on: {
           transitionEnd: function () {
             if (swiper.realIndex !== 0) {
-              $("#header .header-area").addClass("active");
+              $("#header .header_area").addClass("active");
             } else {
-              $("#header .header-area").removeClass("active");
+              $("#header .header_area").removeClass("active");
+            }
+          },
+          transitionStart: function () {
+            if (swiper.realIndex === 4) {
+              $(".scroll").css("display", "none");
+            } else if (swiper.realIndex === 2) {
+              $(".scroll span").css("color", "#000");
+              $(".scroll img").attr("src", "/img/icon/scroll_black.png");
+            } else {
+              $(".scroll").css("display", "flex");
+              $(".scroll span").css("color", "#fff");
+              $(".scroll img").attr("src", "/img/icon/scroll.png");
             }
           },
         },
       });
+    </script>
 
-      $(document).ready(function () {
-        $("#menu ul li a").bind("mouseenter focusin", function () {
-          if ($("#header .header-area").height() <= 100) {
-            $("#header .header-area")
-              .stop()
-              .animate({ height: "426px" }, "350");
-            $("#header .header-area").addClass("active");
-          }
+    <!-- slick -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../js/slick/slick.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script>
+      $(document).on("ready", function () {
+        $(".autoplay").slick({
+          lazyLoad: "ondemand", // ondemand progressive anticipated
+          dots: true,
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
         });
-        $(".side_btn .munu_min").bind("click", function () {
-          if ($("#header .header-area").height() <= 100) {
-            $("#header .header-area")
-              .stop()
-              .animate({ height: "426px" }, "350");
-            $("#header .header-area").addClass("active");
-          }
-        });
-        $("#header .header-area").bind("mouseleave", function () {
-          $("#header .header-area").stop().animate({ height: "100px" }, 100);
-          $("#menu ul li.on").removeClass("on");
-          if (swiper.realIndex === 0) {
-            $("#header .header-area").removeClass("active");
-          }
+
+        $(".slick-dots").append(
+          "<img src='/img/icon/stop.png' alt='stop' title='stop' class='slick_stop' />"
+        );
+
+        $(".slick_stop").on("click", function () {
+          $(".autoplay").slick("slickPause");
         });
       });
     </script>
