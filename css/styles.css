@@ -16,6 +16,7 @@ body {
 
 #header .header_area .logo {
   background: url("../img/logo.png") center / 100% 53px no-repeat;
+  min-width: 202px;
   width: 202px;
   height: 100%;
   background-position: center;
@@ -65,8 +66,8 @@ body {
 }
 
 #header #menu {
-  height: 100%;
   width: 100%;
+  height: 100%;
   max-width: 1000px;
 }
 
@@ -110,6 +111,10 @@ body {
   line-height: 1.39;
   letter-spacing: -0.17px;
   color: #fff;
+}
+
+#menu ul.wrap li span {
+  display: none;
 }
 
 #menu .sub_wrap {
@@ -157,6 +162,7 @@ body {
 }
 
 #header .side_btn .language {
+  min-width: 28px;
   width: 28px;
   height: 28px;
   background: url("../img/icon/language.png") center / 26px 26px no-repeat;
@@ -172,6 +178,7 @@ body {
 }
 
 #header .side_btn .munu_min {
+  min-width: 41px;
   font-family: "Orbitron";
   font-size: 11px;
   letter-spacing: normal;
@@ -403,4 +410,106 @@ body {
 #footer .copyright {
   letter-spacing: -0.52px;
   margin-top: 42px;
+}
+
+@media all and (max-width: 1200px) {
+  #footer .content {
+    margin-left: 50px;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  #footer .column .info {
+    flex-direction: column;
+  }
+
+  #footer .column .info .bar {
+    display: none;
+  }
+
+  #footer .copyright {
+    margin-top: 20px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  #header .header_area .logo {
+    background: url(../img/logo.png) center / 100% auto no-repeat;
+    min-width: 128px;
+    width: 21vw;
+  }
+
+  #header #menu {
+    position: absolute;
+    top: 100px;
+    left: -4vw;
+    width: 100vw;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    display: none;
+  }
+
+  #header .header_area.on #menu {
+    display: block;
+  }
+  #menu ul li.menu_step01 {
+    width: 100%;
+    height: auto;
+  }
+
+  #menu ul.wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_area #menu ul li.menu_step01 .wrap {
+    height: auto;
+    display: none;
+  }
+
+  .header_area.on #menu ul li.menu_step01 .wrap {
+    display: flex;
+    margin: 20px 0;
+  }
+
+  #header .header_area.active #menu ul li .wrap a {
+    display: none;
+  }
+
+  #header .header_area.active #menu ul li span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 5.4vw;
+    font-weight: bold;
+    line-height: 1.25;
+    cursor: pointer;
+  }
+
+  #header .header_area.on #menu .sub_wrap {
+    position: relative;
+    top: 0;
+    display: none;
+  }
+
+  #menu .menu_step01 .wrap.show + .sub_wrap {
+    display: block !important;
+  }
+
+  #menu .menu_step01 .wrap.show span {
+    color: #0075c1;
+  }
+
+  #menu .menu_icon img {
+    height: 8.5vw;
+  }
+
+  #header .header_area.active #menu ul.sub_wrap li a {
+    font-size: 3.3vw;
+  }
+
+  #menu .menu_icon .bar {
+    min-width: 29px;
+    width: 6vw;
+  }
 }

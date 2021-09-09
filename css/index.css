@@ -73,7 +73,7 @@ header {
 }
 
 .swiper-container-vertical > .swiper-pagination-bullets {
-  right: 11%;
+  right: 8vw;
 }
 
 .swiper-pagination-bullet {
@@ -414,6 +414,10 @@ header {
   border-top: 2px solid #959595;
 }
 
+.slide_04 .card_column:nth-child(2) {
+  margin: 0 10px;
+}
+
 .slide_04 .card_column h3.title {
   font-size: 24px;
   font-weight: bold;
@@ -605,4 +609,38 @@ header {
   font-weight: 300;
   line-height: 2.25;
   letter-spacing: -0.4px;
+}
+
+@media all and (max-width: 1800px) {
+  .swiper-container-vertical > .swiper-pagination-bullets {
+    right: 6vw;
+  }
+}
+
+@media all and (max-width: 1730px) {
+  .swiper-container-vertical > .swiper-pagination-bullets {
+    right: 4vw;
+  }
+}
+
+@media all and (max-width: 1650px) {
+  #header-middle-area,
+  .swiper-slide .inner {
+    padding: 0 4vw;
+  }
+
+  .swiper-container-vertical > .swiper-pagination-bullets {
+    right: 2vw;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .slide_03 .card_wrap {
+    width: 110%;
+  }
+
+  .slide_05 .stock_card {
+    margin-right: 30px;
+    padding: 16px 24px;
+  }
 }
