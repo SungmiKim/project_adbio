@@ -24,11 +24,14 @@ function closeMenu() {
     $(".menu_bg").fadeOut();
     $("#header .header_area").removeClass("on");
     $("#menu .menu_step01 .wrap").removeClass("show");
-    if (swiper.realIndex === 0) {
-      $("#header .header_area").removeClass("active");
+    if ($("body").hasClass("index")) {
+      if (swiper.realIndex === 0) {
+        $("#header .header_area").removeClass("active");
+      }
     }
   }
 }
+
 // 모바일 메뉴
 function dropMoMenu(num) {
   $("#menu .menu_step01 .wrap:not(.menu0" + num + " .wrap)").removeClass(
@@ -36,9 +39,19 @@ function dropMoMenu(num) {
   );
   $("#menu .menu0" + num + " .wrap").toggleClass("show");
 }
+
 // 언어 선택
 function openLang() {
   $(".balloon").toggleClass("balloon_show");
+}
+
+function subMenu() {
+  $(".drop_sub_menu").toggleClass("show");
+  if ($(".drop_sub_menu").hasClass("show")) {
+    $(".sub_menu").slideDown();
+  } else {
+    $(".sub_menu").slideUp();
+  }
 }
 
 $(document).ready(function () {
