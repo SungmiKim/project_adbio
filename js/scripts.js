@@ -2,7 +2,7 @@
 function showMenu() {
   var windowWidth = $(window).width();
   if ($("#header .header_area").height() <= 100) {
-    if (windowWidth <= 1023) {
+    if (windowWidth <= 1024) {
       $("#header .header_area").stop().animate({ height: "100vh" }, "350");
     } else {
       $("#header .header_area").stop().animate({ height: "426px" }, "350");
@@ -49,14 +49,14 @@ $(document).ready(function () {
   $(".side_btn .munu_min").bind("click", function () {
     showMenu();
     var windowWidth = $(window).width();
-    if (windowWidth <= 1023) {
+    if (windowWidth <= 1024) {
       closeMenu();
     }
   });
 
   $("#header .header_area").bind("mouseleave", function () {
     var windowWidth = $(window).width();
-    if (windowWidth > 1023) {
+    if (windowWidth > 1024) {
       closeMenu();
     }
   });
