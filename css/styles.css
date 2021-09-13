@@ -435,6 +435,10 @@ body {
   margin: auto;
 }
 
+.wrapper {
+  padding-bottom: 100px;
+}
+
 .main_title {
   width: 100%;
   height: 260px;
@@ -585,299 +589,22 @@ nav ul li.active a {
   margin-right: 0;
 }
 
-@media all and (max-width: 1650px) {
-  #header-middle-area,
-  .main_title .inner,
-  .main_container .inner,
-  section .inner {
-    padding: 0 4vw;
-  }
+.title_column h2 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.35;
+  letter-spacing: -1.2px;
+  text-align: left;
+  color: #020202;
+  margin-top: 77px;
 }
 
-@media all and (max-width: 1200px) {
-  #footer .content {
-    margin-left: 50px;
-  }
-}
-
-@media all and (max-width: 1100px) {
-  #footer .column .info {
-    flex-direction: column;
-  }
-
-  #footer .column .info .bar {
-    display: none;
-  }
-
-  #footer .copyright {
-    margin-top: 20px;
-  }
-}
-
-@media all and (max-width: 1024px) {
-  #menu {
-    position: absolute;
-    top: 100px;
-    left: -4vw;
-    width: 100vw;
-    height: calc(100vh - 100px);
-    overflow-y: auto;
-    display: none;
-  }
-
-  #header .header_area.on #menu {
-    display: block;
-  }
-  #menu ul li.menu_step01 {
-    width: 100%;
-    height: auto;
-  }
-
-  #menu ul.wrap {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .header_area #menu ul li.menu_step01 .wrap {
-    height: auto;
-    display: none;
-  }
-
-  .header_area.on #menu ul li.menu_step01 .wrap {
-    display: flex;
-    margin: 30px 0;
-  }
-
-  #header .header_area.active #menu ul li .wrap a {
-    display: none;
-  }
-
-  #header .header_area.active #menu ul li span {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 1.25;
-    cursor: pointer;
-  }
-
-  #header .header_area.on #menu .sub_wrap {
-    position: relative;
-    top: 0;
-    display: none;
-  }
-
-  #menu .menu_step01 .wrap.show + .sub_wrap {
-    display: block !important;
-  }
-
-  #menu .menu_step01 .wrap.show span {
-    color: #0075c1;
-  }
-
-  #menu .menu_icon img {
-    height: 60px;
-  }
-
-  #menu .menu_icon .bar {
-    min-width: 29px;
-    width: 6vw;
-  }
-
-  .tab_btns {
-    margin-bottom: 40px;
-  }
-
-  .tab_btns a {
-    height: 46px;
-    padding: 0 26px;
-    font-size: 18px;
-    border-radius: 46px;
-    margin-right: 10px;
-  }
-
-  #footer .logo {
-    max-width: 150px;
-  }
-
-  #footer .content {
-    margin-left: 30px;
-  }
-}
-
-@media all and (max-width: 960px) {
-  #header .header_area.active #menu ul.sub_wrap li a {
-    font-size: 18px;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .web_ver {
-    display: none;
-  }
-
-  .mo_ver {
-    display: block;
-  }
-
-  .tab_btns {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  #footer {
-    min-height: 250px;
-  }
-
-  #footer .dropdown {
-    display: none;
-  }
-  #footer .inner {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 4vw 10px;
-  }
-
-  #footer .content .column {
-    margin: 0 10px;
-    align-items: center;
-  }
-
-  #footer .copyright {
-    text-align: center;
-  }
-
-  #footer .content {
-    margin-left: 0;
-  }
-
-  #footer .content .wapper {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media all and (max-width: 414px) {
-  #header .header_area.active #menu ul li span {
-    font-size: 16px;
-  }
-
-  #header .header_area .logo {
-    background-size: 100% auto !important;
-    min-width: auto;
-    width: 70px;
-  }
-
-  #header,
-  #header-middle-area,
-  #header-middle-area .header-middle {
-    height: 50px;
-  }
-  #header .side_btn .language {
-    min-width: 16px;
-    width: 16px;
-    height: 16px;
-    background: url(../img/icon/language.png) center / 16px 16px no-repeat;
-  }
-
-  #header .header_area.active .side_btn .language {
-    background: url(../img/icon/language_black.png) center / 16px 16px no-repeat;
-  }
-
-  #header .balloon {
-    top: 26px;
-    width: 60px;
-  }
-
-  #header .balloon:after {
-    top: -7px;
-    left: 20px;
-  }
-
-  #header .balloon a {
-    font-size: 14px;
-  }
-
-  #header .side_btn .munu_min {
-    font-size: 10px;
-    line-height: 1.3;
-  }
-
-  #header .side_btn .dot {
-    width: 6px;
-    height: 6px;
-  }
-
-  #header .side_btn .bar {
-    margin: 0 6px;
-  }
-
-  #menu {
-    top: 50px;
-    height: calc(100vh - 50px);
-  }
-
-  #menu .menu_icon img {
-    height: 40px;
-  }
-
-  .header_area.on #menu ul li.menu_step01 .wrap {
-    margin: 20px 0;
-  }
-
-  #header .header_area.active #menu ul.sub_wrap li a {
-    font-size: 16px;
-  }
-
-  .tab_btns a {
-    max-width: 48vw;
-    height: 30px;
-    padding: 0 16px;
-    font-size: 14px;
-    border-radius: 30px;
-    margin-right: 4px;
-  }
-
-  #footer {
-    font-size: 10px;
-    min-height: auto;
-  }
-
-  #footer .logo {
-    max-width: 80px;
-  }
-
-  #footer .inner {
-    flex-direction: column;
-    padding: 10px;
-    align-items: center;
-  }
-
-  #footer .content {
-    padding-top: 0;
-    margin: 0;
-  }
-
-  #footer .content .wapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #footer .dropbtn {
-    display: none;
-  }
-
-  #footer .column .name {
-    font-size: 11px;
-  }
-
-  #footer .column .name.co_name {
-    color: #fff;
-    font-size: 12px;
-  }
-
-  #footer .content .column {
-    align-items: center;
-  }
+.title_column .title_info {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #6c6c6c;
+  margin-bottom: 80px;
 }
