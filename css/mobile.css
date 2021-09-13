@@ -230,6 +230,10 @@
     color: #fff;
   }
 
+  .title_column {
+    display: none;
+  }
+
   .tab_btns {
     margin-bottom: 30px;
     text-align: center;
@@ -341,6 +345,7 @@
 
   .tab_btns a {
     max-width: 48vw;
+    min-width: 30vw;
     height: 30px;
     padding: 0 16px;
     font-size: 14px;

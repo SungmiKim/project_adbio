@@ -563,6 +563,7 @@ nav ul li.active a {
 }
 
 .tab_btns a {
+  min-width: 180px;
   height: 56px;
   display: inline-flex;
   align-items: center;

@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
 
-/* common */
-
-@media all and (max-width: 768px) {
-  .title_column h2,
-  .title_column .title_info {
-    display: none;
-  }
-}
-
-/* common */
-
 nav ul li {
   height: 100%;
   width: calc(100% / 6);
@@ -25,6 +14,17 @@ nav ul li {
   width: 100%;
   height: 500px;
   background-color: coral;
+}
+
+@media all and (max-width: 768px) {
+  .title_column {
+    display: block !important;
+  }
+
+  .title_column h2,
+  .title_column .title_info {
+    display: none;
+  }
 }
 
 @media all and (max-width: 414px) {
