@@ -348,22 +348,33 @@ header {
   margin-top: 60px;
 }
 
-.slide_03 .card_column {
+.slide_03 .card_column .img_wrap {
   position: relative;
 }
 
-.slide_03 .card_column::before {
+.slide_03 .card_column .bg_txt {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 30px;
   font-weight: bold;
   line-height: 2.17;
   letter-spacing: -0.75px;
   color: #fff;
+  opacity: 0;
+  transition: all 0.5s linear;
 }
 
+.slide_03 .card_column .img_wrap:hover > .bg_txt {
+  opacity: 1;
+}
+
+/* 
 .slide_03 .card_column:nth-child(1)::before {
   content: "축산";
 }
@@ -374,7 +385,7 @@ header {
 
 .slide_03 .card_column:nth-child(3)::before {
   content: "식품";
-}
+} */
 
 .slide_03 .card_column {
   margin-left: 30px;
