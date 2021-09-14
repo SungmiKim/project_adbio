@@ -255,6 +255,7 @@
   #footer .content .column {
     margin: 0 10px;
     align-items: center;
+    text-align: center;
   }
 
   #footer .copyright {
@@ -415,6 +416,5 @@
 
   #footer .content .column {
     align-items: center;
-    text-align: center;
   }
 }

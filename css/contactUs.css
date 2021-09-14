@@ -1,0 +1,244 @@
+.wrapper {
+  padding-bottom: 300px;
+}
+
+.main_title {
+  background: url("../img/bg/sub/company.png") center / cover no-repeat;
+}
+
+.sec_01 .addr {
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.18px;
+  text-align: left;
+  color: #727272;
+  border-bottom: 1px solid #cfcfcf;
+  padding-bottom: 34px;
+}
+
+.sec_01 .addr h3 {
+  font-size: 24px;
+  letter-spacing: -0.24px;
+  color: #3a3a3a;
+}
+
+.sec_01 .info_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.sec_01 .info_wrap .tel_info {
+  display: flex;
+}
+
+.sec_01 .tel_info li {
+  display: flex;
+  align-items: center;
+  margin-right: 58px;
+}
+
+.sec_01 .tel_info li:last-child {
+  margin-right: 0;
+}
+
+.sec_01 .tel_info li .icon,
+.sec_01 .tel_info li span {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  text-align: left;
+}
+
+.sec_01 .tel_info li .icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec_01 .tel_info li .icon.tel {
+  background: #0075c1;
+}
+
+.sec_01 .tel_info li .icon.fax {
+  background: #90c31f;
+}
+
+.sec_01 .tel_info li span {
+  color: #3a3a3a;
+  margin-left: 16px;
+}
+
+.qna_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qna_info.mo_ver {
+  display: none;
+}
+
+.qna_info li {
+  width: 230px;
+  height: 65px;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qna_info li.tech {
+  border: none;
+  background: #5c5c5c;
+}
+
+.qna_info li img {
+  margin-right: 22px;
+}
+
+.qna_info li span {
+  font-size: 18px;
+  line-height: 0.99;
+  letter-spacing: -0.18px;
+  text-align: left;
+  color: #000;
+}
+
+.qna_info li.tech span {
+  color: #fff;
+}
+
+#map {
+  width: 100%;
+  height: 600px;
+}
+
+@media all and (max-width: 1024px) {
+  .sec_01 .addr {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+
+  .sec_01 .addr h3 {
+    font-size: 20px;
+  }
+
+  .sec_01 .info_wrap {
+    padding: 20px 0;
+  }
+
+  .sec_01 .tel_info li {
+    margin-right: 40px;
+  }
+
+  .sec_01 .tel_info li .icon,
+  .sec_01 .tel_info li span {
+    font-size: 18px;
+  }
+
+  .sec_01 .tel_info li .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sec_01 .tel_info li span {
+    margin-left: 12px;
+  }
+
+  .qna_info li {
+    width: 200px;
+    height: 60px;
+  }
+
+  .qna_info li img {
+    margin-right: 20px;
+  }
+
+  .qna_info li span {
+    font-size: 16px;
+  }
+
+  #map {
+    max-height: 80vw;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .sec_01 .tel_info li {
+    margin-right: 30px;
+  }
+
+  .qna_info li {
+    width: 170px;
+    height: 50px;
+  }
+
+  #map {
+    max-height: 60vw;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .qna_info.mo_ver {
+    display: flex;
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .sec_01 .addr {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .sec_01 .addr h3 {
+    font-size: 16px;
+  }
+
+  .sec_01 .info_wrap {
+    padding: 15px 0;
+  }
+
+  .sec_01 .tel_info li {
+    margin-right: 10px;
+    width: 50%;
+  }
+
+  .sec_01 .tel_info li .icon,
+  .sec_01 .tel_info li span {
+    font-size: 14px;
+  }
+
+  .sec_01 .tel_info li .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .sec_01 .info_wrap .tel_info {
+    width: 100%;
+  }
+
+  .sec_01 .tel_info li span {
+    margin-left: 8px;
+  }
+
+  .qna_info li {
+    width: 130px;
+    height: 40px;
+  }
+
+  .qna_info li img {
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  #map {
+    max-height: 80vw;
+  }
+}
