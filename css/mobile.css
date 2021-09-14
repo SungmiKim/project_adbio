@@ -415,5 +415,6 @@
 
   #footer .content .column {
     align-items: center;
+    text-align: center;
   }
 }
