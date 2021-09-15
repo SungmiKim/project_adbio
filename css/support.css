@@ -16,6 +16,6 @@
 
 @media all and (max-width: 414px) {
   .wrapper {
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
   }
 }

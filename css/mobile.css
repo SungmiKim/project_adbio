@@ -103,7 +103,7 @@
   }
 
   .wrapper {
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
   }
 
   .tab_btns {
@@ -143,7 +143,7 @@
   }
 
   .wrapper {
-    padding-bottom: 50px;
+    padding-bottom: 350px;
   }
 
   .main_container .inner {
@@ -240,7 +240,7 @@
   }
 
   #footer {
-    min-height: 200px;
+    /* min-height: 200px; */
   }
 
   #footer .dropdown {
@@ -342,6 +342,10 @@
 
   #header .header_area.active #menu ul.sub_wrap li a {
     font-size: 16px;
+  }
+
+  .wrapper {
+    padding-bottom: 250px;
   }
 
   .tab_btns a {
