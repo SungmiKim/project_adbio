@@ -240,7 +240,7 @@
   }
 
   #footer {
-    min-height: 250px;
+    min-height: 200px;
   }
 
   #footer .dropdown {
@@ -378,7 +378,6 @@
 
   #footer {
     font-size: 10px;
-    min-height: auto;
   }
 
   #footer .logo {

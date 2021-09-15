@@ -110,6 +110,10 @@
     min-height: 168px;
   }
 
+  .sec_01 {
+    min-height: 700px;
+  }
+
   .sec_01 .inner {
     flex-direction: column;
   }

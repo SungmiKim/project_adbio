@@ -49,6 +49,7 @@
 }
 
 .sec_02 .h_column .h_lists {
+  flex: 1;
   position: relative;
   margin-left: 56px;
   /* background: url("../img/history_02.png") 0px 0px / auto 100% no-repeat; */

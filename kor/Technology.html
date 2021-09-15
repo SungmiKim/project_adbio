@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>(주)애드바이오텍</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/swiper/swiper.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/Technology.css" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="wrapper">
+        <div class="menu_bg"></div>
+        <header id="header">
+          <div class="header_area active">
+            <div id="header-middle-area">
+              <div class="header-middle">
+                <div
+                  class="logo"
+                  onclick="location.href='/kor/index.html'"
+                ></div>
+
+                <!-- 웹 메뉴 -->
+                <div id="menu" class="web_menu">
+                  <ul class="wrap">
+                    <li class="menu_step01 menu01">
+                      <div class="wrap">
+                        <a href="companyInfo.html">COMPANY</a>
+                        <span onclick="dropMoMenu(1)">COMPANY</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="/img/icon/company.png"
+                            alt="company"
+                            title="company"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="companyInfo.html">기업소개 </a>
+                        </li>
+                        <li>
+                          <a href="greeting.html">CEO인사말</a>
+                        </li>
+                        <li>
+                          <a href="history.html">연혁</a>
+                        </li>
+                        <li>
+                          <a href="contactUs.html">오시는 길</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu02">
+                      <div class="wrap">
+                        <a href="Technology.html">TECHNOLOGY</a>
+                        <span onclick="dropMoMenu(2)">TECHNOLOGY</span>
+                      </div>
+
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="/img/icon/technology.png"
+                            alt="technology"
+                            title="technology"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="Technology.html">기술 소개</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu03">
+                      <div class="wrap">
+                        <a href="productLivestock.html">PRODUCT</a>
+                        <span onclick="dropMoMenu(3)">PRODUCT</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="/img/icon/product.png"
+                            alt="product"
+                            title="product"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="productLivestock.html">축 · 수산</a>
+                        </li>
+                        <li>
+                          <a href="productFood.html">식품</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu04">
+                      <div class="wrap">
+                        <a href="stockPrice.html">INVESTORS</a>
+                        <span onclick="dropMoMenu(4)">INVESTORS</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="/img/icon/stock.png"
+                            alt="stock"
+                            title="stock"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="stockPrice.html">주가정보</a>
+                        </li>
+                        <li>
+                          <a href="finance.html">재무정보</a>
+                        </li>
+                        <li>
+                          <a href="disclosure.html">공시·공고</a>
+                        </li>
+                        <li>
+                          <a href="irDataA.html">IR자료실</a>
+                        </li>
+                        <li>
+                          <a href="stockInfo.html">주식정보</a>
+                        </li>
+                        <li>
+                          <a href="irContact.html">IR CONTACT</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu05">
+                      <div class="wrap">
+                        <a href="Notice.html">NOTICE</a>
+                        <span onclick="dropMoMenu(5)">NOTICE</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="/img/icon/notice.png"
+                            alt="notice"
+                            title="notice"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="Notice.html">공지사항 </a>
+                        </li>
+                        <li>
+                          <a href="Press.html">보도자료</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu06">
+                      <div class="wrap">
+                        <a href="support.html">SUPPORT</a>
+                        <span onclick="dropMoMenu(6)">SUPPORT</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="/img/icon/support.png"
+                            alt="support"
+                            title="support"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="support.html">온라인 문의 </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="side_btn">
+                  <div class="language lang_icon">
+                    <div class="balloon">
+                      <div class="balloon_column">
+                        <a href="index.html">한국어</a>
+                      </div>
+                      <div class="balloon_column">
+                        <a href="../eng/index.html">English</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bar"></div>
+                  <div class="munu_min">
+                    <div>MENU</div>
+                    <div class="dots">
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="main_title">
+          <div class="inner">
+            <a href="contactUs.html" class="prev_page move_page">
+              <div class="bar"></div>
+              <div class="name">오시는 길</div>
+            </a>
+            <div class="center_title">
+              <div class="name">COMPANY</div>
+              <div class="location">
+                <img
+                  src="/img/icon/loc_home.png"
+                  alt="home"
+                  title="home"
+                  class="step_01 web_ver"
+                />
+                <span class="arrow web_ver">&gt;</span>
+                <span class="step_02 web_ver">COMPANY</span>
+                <span class="arrow web_ver">&gt;</span>
+                <span class="step_03">기술 소개 </span>
+              </div>
+            </div>
+            <a href="productLivestock.html" class="next_page move_page">
+              <div class="name">축 · 수산</div>
+              <div class="bar"></div>
+            </a>
+          </div>
+          <ul class="mo_ver sub_menu">
+            <li class="active"><a href="Technology.html">기술 소개</a></li>
+          </ul>
+        </div>
+
+        <nav class="web_ver">
+          <div class="inner">
+            <ul>
+              <li class="active"><a href="Technology.html">기술 소개</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="title_column">
+          <div class="inner">
+            <h2>기술 소개</h2>
+            <div class="title_info">
+              백신과 항생제 대체가 가능한 애드바이오텍의 Technology를
+              소개합니다.
+            </div>
+          </div>
+        </div>
+        <section class="sec_01">
+          <div class="inner">
+            <div class="over_wrap">
+              <h3>
+                우리의 안전한 먹거리를 위해 <br />
+                애드바이오텍 중앙연구소는 기술연구와
+                제품개발을&nbsp;위해&nbsp;노력합니다.
+              </h3>
+              <div class="title_desc">
+                주식회사 애드바이오텍의 중앙연구소는 한국산업기술진흥협회 인증
+                기업부설연구소로서 난황항체(IgY) 기술을 이용하여 의약품, 축산용,
+                수산용 경구투여용 항체 제품 및 화장품, 식품첨가제를 연구,
+                개발하기 위해 설립되었습니다. 본 연구소는 산학협력을 통해
+                "안전한 우리의 먹거리"를 목표로 새롭고 다양한 제품을 위하여 국책
+                연구과제를 주도적으로 수행하고 있습니다.
+              </div>
+              <div class="over_ct">
+                <div class="over_column">
+                  <div>
+                    <div class="desc">의약용·축산용·수산용·화장품용</div>
+                    <div class="title">난황항체 기술</div>
+                  </div>
+                  <div class="num">01</div>
+                </div>
+                <div class="over_column">
+                  <div>
+                    <div class="desc">인간과 가축의 특정질병을 위한</div>
+                    <div class="title">천연물질</div>
+                  </div>
+                  <div class="num">02</div>
+                </div>
+                <div class="over_column">
+                  <div>
+                    <div class="desc">변역증강을 위한</div>
+                    <div class="title">보조제</div>
+                  </div>
+                  <div class="num">03</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_02">
+          <div class="inner">
+            <div class="title_wrap">
+              <div>
+                <h4>특허 현황</h4>
+                <p class="desc">
+                  주식회사 애드바이오텍이 보유하고 있는 특허 현황입니다.
+                </p>
+              </div>
+              <div class="info_wrap">
+                <div class="box">
+                  <h5>등록</h5>
+                  <ul>
+                    <li>국내 - 28</li>
+                    <li>해외 - 08</li>
+                    <li class="sum">소계 - 34</li>
+                  </ul>
+                </div>
+                <div class="box">
+                  <h5>출원</h5>
+                  <ul>
+                    <li>국내 - 02</li>
+                    <li>해외 - 11</li>
+                    <li class="sum">소계 - 13</li>
+                  </ul>
+                </div>
+                <div class="box">
+                  <h5>상표권</h5>
+                  <ul>
+                    <li>국내 - 19</li>
+                    <li>해외 - 07</li>
+                    <li class="sum">소계 - 26</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="table">
+              <div class="cate">구분</div>
+              <ul class="column lists">
+                <li>난황항체의 보존방법</li>
+                <li>난황항체 보존액</li>
+                <li>스트레스 및 염증 완화용 사료첨가제</li>
+                <li>
+                  돼지유행성 설사 또는 돼지전염성 위장염에 대한 항체를 지닌
+                  난황을 함유하는 자돈 사료용 첨가물 조성물
+                </li>
+                <li>항 헬리코박터 파이로리 난황항체</li>
+                <li>
+                  송아지 소화기성 질병의 예방 또는 치료용 난황항체 제조방법,
+                  이에 의해 제조된 난황항체 및 이의 용도
+                </li>
+                <li>
+                  새우 조기 폐사 증후군 및 흰반점 바이러스에 대한 항체 및 이의
+                  응용
+                </li>
+                <li>항 헬리코박터 파이로리 난황항체 및 이의 용도</li>
+                <li>뿌리혹 선충 방제용 서방형 미생물 제제 및 이의 제조방법</li>
+                <li>돼지 소화기성 질병의 예방 또는 치료용 난황항체 제조방법</li>
+                <li>
+                  연어 리케차성 패혈증 예방 또는 치료용 난황항체의 제조방법
+                </li>
+                <li>항 헬리코박터 파이로리 난황항체 제조방법</li>
+                <li>
+                  콜레스테롤 흡수 억제를 통한 비만 예방 또는 치료용 난황항체
+                  제조방법
+                </li>
+              </ul>
+              <ul class="column list">
+                <li>
+                  장 내 콜레스테롤 흡수 억제를 통한 고지혈증 및 비만 억제용 식품
+                  조성물(미국)
+                </li>
+              </ul>
+              <div class="column">전용실시건</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_03">
+          <div class="inner">
+            <h4>IgY기술</h4>
+
+            <div class="column">
+              <div>
+                <img src="/img/icon/IgY_icon.png" alt="IgY" title="IgY" />
+                <span class="title">INFORMATION</span>
+              </div>
+              <ul>
+                <li>
+                  백신 접종 후 항체를 체내에서 만들어 형성된 면역항체가 자손에게
+                  전달되는 원리를 적용.
+                </li>
+                <li>
+                  난생(卵生)동물의 면역항체는 어미의 난황을 통해 생성, 축적,
+                  전달.
+                </li>
+                <li>
+                  애드바이오텍은 lgY기술(이종항체 기술)을 다양한 제품에 적용하여
+                  질병억제가 가능하도록 하는 특수 기술을 보유
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_04">
+          <div class="inner">
+            <h4>IgY(Immunoglobulin in Yolk) Technology</h4>
+            <p class="desc">계란난황을 이용해서 생산란 면역항체</p>
+            <div class="column">
+              <div>
+                <img src="/img/Technology_04.png" alt="" />
+              </div>
+              <div>
+                <img src="/img/Technology_05.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_05">
+          <div class="inner">
+            <div class="column">
+              <h4>lgY 제품 개발방향</h4>
+              <ul>
+                <li>
+                  바이러스 질병을 대응하기 위한 근본적인 치료제가 없는 분야
+                </li>
+                <li>백신으로 질병 예방이 불가능한 질병</li>
+                <li>
+                  비특이적 면역계만 있어 백신으로 질병 예방이 불가능한 수산 생물
+                </li>
+                <li>
+                  항생제 잔류, 식품 안전성 대두로 항생제 사용이 금지된 시기
+                </li>
+                <li>항생제 내성균 발생으로 항생제 및 치료제가 없는 분야</li>
+              </ul>
+            </div>
+            <div class="column">
+              <h4>lgY 기술의 확장성</h4>
+              <ul>
+                <li>
+                  IgY는 수동면역을 전달하는 방식으로 경구 투여하여 질병을
+                  예방하기 때문에백신보다 우수한 투여 편의성 보유
+                </li>
+                <li>IgY 기술은 최근 유행주에 대한 빠른 대응이 가능</li>
+                <li>
+                  IgY는 계란 유래의 항체로써 안전성이 확보된 질병 저항성 소재
+                  물질
+                </li>
+                <li>인체적용(건강기능식품)이 가능</li>
+                <li>다양한 제품으로 확장성이 매우 우수한 천연 소재임</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_06">
+          <div class="inner">
+            <h4>생산역량</h4>
+            <p class="desc">
+              생산 시설, 항원 라이브러리, 항원 생산, 접종 프로그램상 대량 오더에
+              대응 가능
+            </p>
+
+            <div class="content">
+              <ul>
+                <li class="list_01">
+                  <div class="num">01</div>
+                  <div class="title">생산 시설</div>
+                  <div class="desc">
+                    생물안전 2등급(Biosafety level 2)이 허가된 시설에서의
+                    항원생산 <br />
+                    바이러스, 박테리아, 재조합 단백질의 대량생산 공정 확립 및
+                    표준화<br />
+                    각 항원별 대량 생산 방법 탐색을 통한 최적화 완료<br />
+                    원료 제품 생산 및 체계화된 품질 관리 시스템 정립
+                  </div>
+                </li>
+                <li class="list_02">
+                  <div class="num">02</div>
+                  <div class="title">항원 생산</div>
+                  <div class="desc">
+                    타 사와 차별성이 있는 높은 항체 역가의 제품생산을 위한 항원
+                    제조 기술 보유 <br />
+                    바이러스, 박테리아 복합 항원과 재조합 단백질에 대한 복합항원
+                    제조 기술 보유 <br />
+                    고농도의 항원 및 항체의 농축 정제기술보유, 열 안정성 특허
+                    보유
+                  </div>
+                </li>
+              </ul>
+
+              <ul>
+                <li class="list_03">
+                  <div class="num">03</div>
+                  <div class="title">항원 라이브러리</div>
+                  <div class="desc">
+                    소화기성 질병 원인체 바이러스, 박테리아, 재조합항원 등 약
+                    300여종 보유<br />
+                    신규질병 병원체에 대한 지속적인 분석 및 적용<br />
+                    기생충, 콜레스테롤, 유정란 배양 등 적용이 어려운 질병
+                    원인체에 대한 재조합 단백질 생산
+                  </div>
+                </li>
+                <li class="list_04">
+                  <div class="num">04</div>
+                  <div class="title">접종 프로그램</div>
+                  <div class="desc">
+                    기존, 신규 항원에 대해서 최적의 항체 역가를 생산할 수 있는
+                    복합항원 조합 탐색 연구 진행<br />
+                    복합항원 접종 간격/접종량, 접종차수 등에 대해 예비시험을
+                    통해 최적화 완료<br />
+                    신규 항원 개발 시 예비시험을 통하여 최적화된 비율 탐색 완료
+                    후 농장 대량접종 진행
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="sec_07">
+          <div class="inner">
+            <h4>애드바이오텍의 차별화된 기술</h4>
+
+            <div class="card_ct">
+              <div class="card_wrap">
+                <div class="card active">
+                  <img src="/img/icon/tech_01.png" alt="icon" class="icon" />
+                  <span class="desc"
+                    >단계적 개량기술을 통해 고역가 IgY로 제조하는 항원-이종항체
+                    복합체 특허기술 보유</span
+                  >
+                </div>
+                <div class="card center">
+                  <img src="/img/icon/tech_02.png" alt="icon" class="icon" />
+                  <span class="desc"
+                    >유행주 발생에 대처하기 위한 대응 체계 확립</span
+                  >
+                </div>
+                <ul class="lists">
+                  <li>1.항원 라이브러리 보유 → 유행주로 변경</li>
+                  <li>2.유행주 모니터링 → 야생형 유행주 분리 및 확보</li>
+                  <li>3.SAB, 최신정보 확보 → 복합항원 구성 변경</li>
+                </ul>
+              </div>
+              <div class="card_wrap">
+                <div class="card">
+                  <img src="/img/icon/tech_03.png" alt="icon" class="icon" />
+                  <span class="desc"
+                    >최적 복합항원으로 생산한 IgY는 바이러스/세균성 질병을
+                    동시에 억제할 수 있음 5~7종 이상의 질병 원인균 대항 IgY 함유
+                    (타사 평균: 3~4종 IgY 함유)
+                  </span>
+                </div>
+                <div class="card center">
+                  <img src="/img/icon/tech_04.png" alt="icon" class="icon" />
+                  <span class="desc"
+                    >고역가/고함량 IgY 생산기술로 글로벌 시장 진출 확대</span
+                  >
+                </div>
+                <ul class="lists">
+                  <li>1. 타겟 시장을 고려하여 최신 유행주로 복합항원 구성</li>
+                  <li>
+                    2. 특허기술로 고역가 IgY 생산, 현지 제품과 비교하여 고역가
+                    IgY 비교우위성 확인
+                  </li>
+                  <li>
+                    3. 현지 대학 또는 전문연구기관을 통해 IgY의 유효성 검증
+                  </li>
+                  <li>
+                    4. 중국과 일본을 포함한 총 10개국에 IgY 제품 수출/판매 중
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer id="footer">
+        <div class="inner">
+          <img
+            src="/img/logo_footer.png"
+            alt="logo"
+            title="logo"
+            class="logo"
+          />
+          <div class="content">
+            <div class="wapper">
+              <div class="column">
+                <div class="name co_name">애드바이오텍㈜</div>
+                <div>CEO : 정홍걸</div>
+                <div>사업자 등록번호 : 215-81-93416</div>
+              </div>
+              <div class="column">
+                <div class="name">CONTACT</div>
+                <div class="info">
+                  <div>
+                    전화 : 033-261-4907
+                    <span class="bar"></span>
+                  </div>
+                  <div>
+                    팩스 : 033-261-4920
+                    <span class="bar"></span>
+                  </div>
+                  <div>메일 : gildong@domain.com</div>
+                </div>
+                <div>주소 : 강원도 춘천시 동내면 거두단지 1길 39</div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">관련사이트</button>
+                <div class="dropdown-content">
+                  <a href="#">홈</a>
+                  <a href="#">회사소개</a>
+                  <a href="#">제품소개</a>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              COPYRIGHT © 2021 ADBioTech., All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../js/swiper/swiper.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper1 = new Swiper(".swiper-container1", {
+        navigation: {
+          nextEl: ".swiper-button-next1",
+          prevEl: ".swiper-button-prev1",
+        },
+      });
+      var swiper2 = new Swiper(".swiper-container2", {
+        navigation: {
+          nextEl: ".swiper-button-next2",
+          prevEl: ".swiper-button-prev2",
+        },
+      });
+    </script>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
