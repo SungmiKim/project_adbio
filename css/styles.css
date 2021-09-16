@@ -623,3 +623,42 @@ nav ul li.active a {
   color: #6c6c6c;
   margin-bottom: 80px;
 }
+
+.pagenation {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0 100px;
+}
+
+.pagenation li a {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #75706a;
+}
+
+.pagenation li a.first {
+  background: url("/img/icon/pagenation_01.png") left 0px / auto 100% no-repeat;
+}
+
+.pagenation li a.prev {
+  background: url("/img/icon/pagenation_01.png") right 0px / auto 100% no-repeat;
+}
+
+.pagenation li a.next {
+  background: url("/img/icon/pagenation_02.png") left 0px / auto 100% no-repeat;
+}
+
+.pagenation li a.last {
+  background: url("/img/icon/pagenation_02.png") right 0px / auto 100% no-repeat;
+}
+
+.pagenation li a.active {
+  background-color: #067bbe;
+  color: #fff;
+  font-weight: bold;
+}

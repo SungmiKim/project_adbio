@@ -118,6 +118,13 @@
     margin-right: 10px;
   }
 
+  .pagenation li a {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+    font-size: 15px;
+  }
+
   #footer .logo {
     max-width: 150px;
   }
@@ -237,6 +244,17 @@
   .tab_btns {
     margin-bottom: 30px;
     text-align: center;
+  }
+
+  .pagenation {
+    margin: 50px 0;
+  }
+
+  .pagenation li a {
+    width: 28px;
+    height: 28px;
+    margin: 0 8px;
+    font-size: 14px;
   }
 
   #footer {
@@ -378,6 +396,13 @@
   .sub_menu li a {
     font-size: 16px;
     padding: 8px 16px;
+  }
+
+  .pagenation li a {
+    width: 26px;
+    height: 26px;
+    margin: 0 4px;
+    font-size: 13px;
   }
 
   #footer {
