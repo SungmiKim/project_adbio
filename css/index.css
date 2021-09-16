@@ -807,6 +807,10 @@ header {
   .slide_05 .content .regdate {
     font-size: 14px;
   }
+
+  .slide_03 .card_column .bg_txt {
+    font-size: 28px;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -884,6 +888,10 @@ header {
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
+  }
+
+  .slide_03 .card_column .bg_txt {
+    font-size: 24px;
   }
 }
 
@@ -1024,7 +1032,7 @@ header {
   }
 
   .slide_03 .card_wrap {
-    width: 120%;
+    width: 115%;
     margin-top: 30px;
   }
 
@@ -1120,6 +1128,10 @@ header {
   }
 
   .slide_05 .total_col .num {
+    font-size: 20px;
+  }
+
+  .slide_03 .card_column .bg_txt {
     font-size: 20px;
   }
 }
