@@ -630,6 +630,14 @@ header {
   margin-right: 10px;
 }
 
+#footer {
+  position: relative;
+}
+
+.slide_05 .container {
+  padding-top: 100px;
+}
+
 @media all and (max-width: 1800px) {
   .swiper-container-vertical > .swiper-pagination-bullets {
     right: 6vw;
