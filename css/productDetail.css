@@ -1,0 +1,774 @@
+.main_title {
+  background: url("../img/bg/sub/product.png") center / cover no-repeat;
+}
+
+nav ul li {
+  width: calc(100% / 2);
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select:focus,
+input:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+input {
+  border: none !important;
+}
+
+.sec_01 .search_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec_01 .search_wrap .select_box {
+  border-bottom: 1px solid;
+}
+
+.sec_01 .search_wrap select {
+  background: url("/img/icon/select_icon.png") no-repeat 100% 50%;
+  width: 230px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #090f13;
+}
+
+.sec_01 .search_wrap .keyword_box {
+  width: 380px;
+  border-bottom: 1px solid;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.sec_01 .search_wrap input {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.sec_01 .search_wrap input::placeholder {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 4.8;
+  color: #9b9b9b;
+}
+
+.sec_02 {
+  background: url("/img/productDetail_01.png") 0px 30px /100% 735px no-repeat;
+  margin-top: 70px;
+}
+
+.sec_02 .inner {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.sec_02 .inner .thumb {
+  min-width: 240px;
+  max-width: 393px;
+  max-height: 465px;
+  margin-right: 90px;
+}
+
+.sec_02 .thumb img {
+  width: 100%;
+  height: 100%;
+}
+
+.sec_02 .main_info .en_title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.69;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.sec_02 .main_info .ko_title {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.19;
+  letter-spacing: -0.9px;
+  text-align: left;
+  color: #020202;
+}
+
+.sec_02 .main_info .tag {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.69;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #020202;
+}
+
+.sec_02 .main_info .icon_list {
+  display: flex;
+}
+
+.sec_02 .main_info .icon_wrap {
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec_02 .main_info .desc {
+  max-width: 700px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.41;
+  letter-spacing: -0.43px;
+  text-align: left;
+  color: #6c6c6c;
+  word-break: keep-all;
+}
+
+.sec_02 .fun_inner {
+  padding-left: 60px;
+  padding: 70px 60px;
+  margin-top: 70px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.sec_02 h2 {
+  padding-top: 10px;
+  margin-right: 60px;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 0.9;
+  letter-spacing: -3.6px;
+  text-align: left;
+  color: #d1d1d1;
+}
+
+.sec_02 .fun_wrap {
+  flex: 1;
+}
+
+.sec_02 .fun_wrap .fun_column {
+  display: flex;
+}
+
+.sec_02 .fun_column .fun_name {
+  min-width: 110px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 2.35;
+  letter-spacing: -0.43px;
+  text-align: left;
+  color: #020202;
+  margin-right: 46px;
+}
+
+.sec_02 .fun_column .fun_desc {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 2.35;
+  letter-spacing: -0.43px;
+  text-align: left;
+  color: #6c6c6c;
+}
+
+.sec_02 .btn_inner .view_list {
+  margin: 30px 0 30px auto !important;
+}
+
+.sec_03 {
+  padding: 90px 0;
+}
+
+.sec_03 .page_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.sec_03 .page_wrap .tag {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2.15;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #3f3f3f;
+}
+
+.sec_03 .page_wrap .btn_column {
+  display: flex;
+}
+
+.sec_03 .btn_column .swiper_btn {
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+
+.sec_03 .btn_column .prev_btn {
+  background: url("/img/icon/pagination_03.png") 0px 0px / cover no-repeat;
+  margin-right: 4px;
+}
+
+.sec_03 .btn_column .next_btn {
+  background: url("/img/icon/pagination_03.png") 0px 0px / cover no-repeat;
+  background-position: right;
+}
+
+.sec_03 .swiper-slide .card_column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.sec_03 .img_col img.product {
+  width: 100%;
+  height: 100%;
+}
+
+.sec_03 .img_col .animal_icon {
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec_03 .card_column .info {
+  border: 1px solid #dedede;
+  border-top: none;
+  padding: 10px 16px;
+}
+
+.sec_03 .card_column .info .title {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.85;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #020202;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sec_03 .card_column .info .desc {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2.46;
+  letter-spacing: -0.38px;
+  text-align: left;
+  color: #828181;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 식품 */
+.buy_btn {
+  width: 215px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: #1e70aa;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -0.22px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.buy_btn img {
+  margin-right: 12px;
+}
+
+#food_detail {
+  flex-direction: column;
+  align-items: flex-start !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+#food_detail h2 {
+  margin-bottom: 20px;
+}
+
+#food_detail .ct_wrap {
+  width: 100%;
+}
+
+#food_detail table {
+  width: 100%;
+  margin-bottom: 50px;
+  border-top: 1px solid #333333;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.36px;
+  text-align: left;
+}
+
+#food_detail table tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+#food_detail table th {
+  width: 17%;
+  background: #f5f5f5;
+  color: #333;
+  vertical-align: baseline;
+}
+
+#food_detail table td {
+  color: #999;
+}
+
+#food_detail table th,
+#food_detail table td {
+  padding: 30px 24px;
+}
+
+#food_detail table ul li {
+  text-indent: -14px;
+  padding-left: 14px;
+}
+
+#food_detail table ul li::before {
+  content: "-";
+  margin-right: 4px;
+}
+
+#food_detail ol li {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.83;
+  letter-spacing: -0.45px;
+  color: #020202;
+  padding-left: 24px;
+}
+
+#food_detail ol li::before {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #020202;
+  border-radius: 50%;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+
+#food_detail ol li:nth-child(1)::before {
+  content: "1";
+}
+
+#food_detail ol li:nth-child(2)::before {
+  content: "2";
+}
+
+#food_detail ol li:nth-child(3)::before {
+  content: "3";
+}
+
+#food_detail ol li:nth-child(4)::before {
+  content: "4";
+}
+
+#food_detail ol li:nth-child(5)::before {
+  content: "5";
+}
+
+#food_detail ol li:nth-child(6)::before {
+  content: "6";
+}
+
+#food_detail ol li:nth-child(7)::before {
+  content: "7";
+}
+
+#food_detail ol li:nth-child(8)::before {
+  content: "8";
+}
+
+#food_detail ol li:nth-child(9)::before {
+  content: "9";
+}
+
+#food_detail ol li:nth-child(10)::before {
+  content: "10";
+}
+
+#food_detail ol li:nth-child(11)::before {
+  content: "11";
+}
+
+#food_detail ol li:nth-child(12)::before {
+  content: "12";
+}
+
+#food_detail ol li:nth-child(13)::before {
+  content: "13";
+}
+
+#food_detail ol li:nth-child(14)::before {
+  content: "14";
+}
+
+#food_detail ol li:nth-child(15)::before {
+  content: "15";
+}
+
+@media all and (max-width: 1650px) {
+  .sec_02 .fun_inner {
+    padding-bottom: 70px !important;
+  }
+}
+
+@media all and (max-width: 1260px) {
+  .sec_02 {
+    background: url(/img/productDetail_01.png) 0px 30px /100% 58vw no-repeat;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .sec_01 .search_wrap select {
+    background-size: auto 14px;
+    width: 200px;
+  }
+
+  .sec_01 .search_wrap select,
+  .sec_01 .search_wrap input {
+    height: 46px;
+  }
+
+  .sec_01 .search_wrap .keyword_box {
+    width: 350px;
+  }
+
+  .sec_01 .search_wrap .keyword_box img {
+    width: 28px;
+  }
+
+  .sec_02 .inner .thumb {
+    margin-right: 60px;
+  }
+
+  .sec_02 .main_info .ko_title {
+    font-size: 32px;
+  }
+
+  .sec_02 .main_info .en_title {
+    font-size: 15px;
+    line-height: 2.4;
+  }
+
+  .sec_02 .main_info .icon_wrap {
+    width: 60px;
+    height: 60px;
+  }
+
+  .sec_02 .main_info .icon_wrap img {
+    width: 32px;
+  }
+
+  .sec_02 .main_info .desc {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .sec_02 h2 {
+    margin-right: 40px;
+    font-size: 42px;
+  }
+
+  .sec_02 .fun_column .fun_name {
+    margin-right: 30px;
+  }
+
+  .sec_02 .fun_column .fun_name,
+  .sec_02 .fun_column .fun_desc {
+    font-size: 16px;
+  }
+
+  .sec_02 .fun_inner {
+    padding-bottom: 50px !important;
+  }
+
+  .sec_03 {
+    padding: 70px 0;
+  }
+
+  .sec_03 .page_wrap .tag,
+  .sec_03 .card_column .info .title {
+    font-size: 18px;
+  }
+
+  .sec_03 .btn_column .swiper_btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  #food_detail table th,
+  #food_detail table td {
+    padding: 20px 20px;
+  }
+
+  #food_detail table {
+    margin-bottom: 40px;
+    font-size: 17px;
+  }
+
+  #food_detail ol li {
+    font-size: 17px;
+  }
+
+  .buy_btn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 26px;
+  }
+
+  .buy_btn img {
+    width: 32px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .title_column {
+    display: block !important;
+  }
+
+  .title_column h2,
+  .title_column .title_info {
+    display: none !important;
+  }
+
+  .sec_01 .search_wrap select {
+    width: 150px;
+  }
+
+  .sec_01 .search_wrap select {
+    background-size: auto 12px;
+  }
+
+  .sec_01 .search_wrap select,
+  .sec_01 .search_wrap input {
+    height: 40px;
+  }
+
+  .sec_01 .search_wrap .keyword_box img {
+    width: 26px;
+  }
+
+  .sec_02 .inner .thumb {
+    margin-right: 40px;
+    min-width: 140px;
+  }
+
+  .sec_02 .main_info .ko_title {
+    font-size: 28px;
+  }
+
+  .sec_02 .main_info .en_title {
+    line-height: 2;
+  }
+
+  .sec_02 .main_info .en_title,
+  .sec_02 .main_info .tag {
+    font-size: 15px;
+  }
+
+  .sec_02 .main_info .desc {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .sec_02 h2 {
+    margin-right: 20px;
+    font-size: 38px;
+  }
+
+  .sec_02 .fun_inner {
+    padding-bottom: 30px !important;
+  }
+
+  .sec_03 {
+    padding: 50px 0;
+  }
+
+  .sec_03 .page_wrap .tag,
+  .sec_03 .card_column .info .title {
+    font-size: 16px;
+  }
+
+  .sec_03 .btn_column .swiper_btn {
+    width: 36px;
+    height: 36px;
+  }
+
+  .web_ver.view_list {
+    display: flex !important;
+  }
+
+  .view_list {
+    width: 140px !important;
+  }
+
+  .view_list a {
+    width: 100%;
+  }
+
+  .sec_03 .card_column .info .desc {
+    font-size: 14px;
+  }
+
+  .sec_02 .main_info .icon_wrap {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sec_02 .main_info .icon_wrap img {
+    width: 30px;
+  }
+
+  .sec_02 {
+    background: url(/img/productDetail_01.png) 0px 30px /100% 70vw no-repeat;
+  }
+
+  .sec_02 .fun_wrap .fun_column {
+    flex-direction: column;
+  }
+
+  .sec_02 .fun_column .fun_desc {
+    margin-bottom: 20px;
+  }
+  .sec_02 .fun_inner {
+    flex-direction: column;
+  }
+
+  #food_detail table th,
+  #food_detail table td {
+    padding: 16px;
+  }
+
+  #food_detail table {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  #food_detail table th {
+    min-width: 87px;
+  }
+
+  #food_detail ol li {
+    font-size: 16px;
+  }
+
+  .buy_btn {
+    width: 160px;
+    height: 45px;
+    font-size: 18px;
+    margin-top: 24px;
+  }
+
+  .buy_btn img {
+    width: 28px;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .sec_02 .inner {
+    flex-direction: column;
+  }
+
+  .sec_02 .fun_inner {
+    margin-top: 30px;
+  }
+
+  .sec_02 .inner .thumb {
+    margin-right: 0;
+    width: 60vw;
+    margin-bottom: 20px;
+  }
+
+  .sec_02 h2 {
+    margin-right: 10px;
+    font-size: 32px;
+  }
+
+  .sec_02 .main_info .ko_title {
+    font-size: 24px;
+  }
+
+  .sec_02 {
+    background: url(/img/productDetail_01.png) 0px 30px /100% 100vw no-repeat;
+  }
+
+  .sec_02 .main_info .icon_wrap {
+    background: #efefef;
+  }
+
+  #food_detail table th,
+  #food_detail table td {
+    padding: 10px 8px;
+  }
+
+  #food_detail table {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  #food_detail table th {
+    min-width: 70px;
+  }
+
+  #food_detail ol li {
+    font-size: 15px;
+  }
+
+  .buy_btn {
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .buy_btn img {
+    width: 24px;
+  }
+}

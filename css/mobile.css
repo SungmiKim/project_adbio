@@ -125,6 +125,16 @@
     font-size: 15px;
   }
 
+  .view_list {
+    width: 170px;
+    height: 42px;
+    margin: 40px auto;
+  }
+
+  .view_list a {
+    font-size: 16px;
+  }
+
   #footer .logo {
     max-width: 150px;
   }
@@ -255,6 +265,22 @@
     height: 28px;
     margin: 0 8px;
     font-size: 14px;
+  }
+
+  .view_list {
+    width: 160px;
+    height: 40px;
+    margin: 30px auto;
+  }
+  .view_list a {
+    font-size: 15px;
+  }
+  .view_list .bar {
+    margin-right: 6px;
+  }
+
+  .view_list .bar > div {
+    width: 22px;
   }
 
   #footer {
@@ -403,6 +429,15 @@
     height: 26px;
     margin: 0 4px;
     font-size: 13px;
+  }
+
+  .view_list {
+    width: 150px;
+    height: 40px;
+    margin: 20px auto;
+  }
+  .view_list a {
+    font-size: 14px;
   }
 
   #footer {
