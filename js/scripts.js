@@ -61,6 +61,9 @@ $(document).ready(function () {
   });
   $(".side_btn .munu_min").bind("click", function () {
     showMenu();
+    if ($("#header .header_area").hasClass("on")) {
+      closeMenu();
+    }
     var windowWidth = $(window).width();
     if (windowWidth <= 1024) {
       closeMenu();

@@ -264,6 +264,10 @@ header {
   flex: 1;
 }
 
+.slide_01 .news_card .desc a {
+  color: #fff;
+}
+
 /* slide_02 */
 
 .slide_02 .inner {
@@ -446,6 +450,10 @@ header {
   -webkit-box-orient: vertical;
   word-wrap: break-word;
   height: 2.3em;
+}
+
+.slide_04 .card_column h3.title a {
+  color: #fff;
 }
 
 .slide_04 .card_column .desc {
