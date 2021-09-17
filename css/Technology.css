@@ -571,6 +571,10 @@ section p.desc {
     margin-left: 20px;
   }
 
+  .sec_03 {
+    padding: 100px 0 50px;
+  }
+
   .sec_03 .column {
     padding: 75px 3vw 0 6vw;
     background-position: 40%;
@@ -883,6 +887,10 @@ section p.desc {
   .sec_07 .card .icon {
     height: 40px;
   }
+
+  .sec_03 {
+    padding: 70px 0 30px;
+  }
 }
 
 @media all and (max-width: 414px) {
@@ -934,6 +942,10 @@ section p.desc {
 
   .sec_02 .table .column {
     padding: 10px;
+  }
+
+  .sec_03 {
+    padding: 50px 0 20px;
   }
 
   .sec_03 .column img {
