@@ -1,8 +1,8 @@
 @import "default.css";
 /* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap");
-@import "/fonts/nanumsquare.css";
-@import "/fonts/KoPubDotum.css";
+@import "../fonts/nanumsquare.css";
+@import "../fonts/KoPubDotum.css";
 
 html,
 body {
@@ -375,7 +375,7 @@ body {
 }
 
 #footer .dropbtn::before {
-  content: url("/img/icon/dropdown.png");
+  content: url("../img/icon/dropdown.png");
   position: absolute;
   right: 24px;
 }
@@ -642,19 +642,23 @@ nav ul li.active a {
 }
 
 .pagenation li a.first {
-  background: url("/img/icon/pagenation_01.png") left 0px / auto 100% no-repeat;
+  background: url("../img/icon/pagenation_01.png") left 0px / auto 100%
+    no-repeat;
 }
 
 .pagenation li a.prev {
-  background: url("/img/icon/pagenation_01.png") right 0px / auto 100% no-repeat;
+  background: url("../img/icon/pagenation_01.png") right 0px / auto 100%
+    no-repeat;
 }
 
 .pagenation li a.next {
-  background: url("/img/icon/pagenation_02.png") left 0px / auto 100% no-repeat;
+  background: url("../img/icon/pagenation_02.png") left 0px / auto 100%
+    no-repeat;
 }
 
 .pagenation li a.last {
-  background: url("/img/icon/pagenation_02.png") right 0px / auto 100% no-repeat;
+  background: url("../img/icon/pagenation_02.png") right 0px / auto 100%
+    no-repeat;
 }
 
 .pagenation li a.active {

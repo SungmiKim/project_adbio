@@ -38,7 +38,7 @@ input {
 }
 
 .sec_01 .search_wrap select {
-  background: url("/img/icon/select_icon.png") no-repeat 100% 50%;
+  background: url("../img/icon/select_icon.png") no-repeat 100% 50%;
   background-size: auto 10px;
   padding: 0 10px;
   width: 230px;
@@ -73,7 +73,7 @@ input {
 }
 
 .sec_02 {
-  background: url("/img/productDetail_01.png") 0px 30px /100% 735px no-repeat;
+  background: url("../img/productDetail_01.png") 0px 30px /100% 735px no-repeat;
   margin-top: 70px;
 }
 
@@ -231,12 +231,12 @@ input {
 }
 
 .sec_03 .btn_column .prev_btn {
-  background: url("/img/icon/pagination_03.png") 0px 0px / cover no-repeat;
+  background: url("../img/icon/pagination_03.png") 0px 0px / cover no-repeat;
   margin-right: 4px;
 }
 
 .sec_03 .btn_column .next_btn {
-  background: url("/img/icon/pagination_03.png") 0px 0px / cover no-repeat;
+  background: url("../img/icon/pagination_03.png") 0px 0px / cover no-repeat;
   background-position: right;
 }
 

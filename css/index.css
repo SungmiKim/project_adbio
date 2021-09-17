@@ -154,12 +154,12 @@ header {
 }
 
 .slide_01 .autoplay .column_01 {
-  background: url("/img/bg/index_bg_1_1.png") no-repeat;
+  background: url("../img/bg/index_bg_1_1.png") no-repeat;
   background-size: cover;
 }
 
 .slide_01 .autoplay .column_02 {
-  background: url("/img/bg/index_bg_1_2.png") no-repeat;
+  background: url("../img/bg/index_bg_1_2.png") no-repeat;
   background-size: cover;
 }
 
@@ -730,13 +730,13 @@ header {
   }
 
   .slide_01 .autoplay .column_01 {
-    background: url("/img/bg/index_bg_1_1.png") no-repeat;
+    background: url("../img/bg/index_bg_1_1.png") no-repeat;
     background-size: cover;
     background-position: 40% 0px;
   }
 
   .slide_01 .autoplay .column_02 {
-    background: url("/img/bg/index_bg_1_2.png") no-repeat;
+    background: url("../img/bg/index_bg_1_2.png") no-repeat;
     background-size: cover;
     background-position: 40% 0px;
   }
@@ -868,13 +868,13 @@ header {
   }
 
   .slide_01 .autoplay .column_01 {
-    background: url("/img/bg/index_bg_1_1.png") no-repeat;
+    background: url("../img/bg/index_bg_1_1.png") no-repeat;
     background-size: cover;
     background-position: 60% 0px;
   }
 
   .slide_01 .autoplay .column_02 {
-    background: url("/img/bg/index_bg_1_2.png") no-repeat;
+    background: url("../img/bg/index_bg_1_2.png") no-repeat;
     background-size: cover;
     background-position: 60% 0px;
   }

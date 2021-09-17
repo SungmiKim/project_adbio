@@ -38,7 +38,7 @@ input {
 }
 
 .sec_01 .search_wrap select {
-  background: url("/img/icon/select_icon.png") no-repeat 100% 50%;
+  background: url("../img/icon/select_icon.png") no-repeat 100% 50%;
   background-size: auto 10px;
   padding: 0 10px;
   width: 230px;
