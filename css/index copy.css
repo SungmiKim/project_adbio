@@ -38,6 +38,11 @@ header {
   align-items: center;
 }
 
+.swiper-slide:nth-child(1) {
+  background: url("../img/bg/index_bg_1.png") 0px 0px / 100% auto no-repeat;
+  background-size: cover;
+}
+
 .swiper-slide:nth-child(2) {
   background: url("../img/bg/index_bg_2.png") 0px 0px / 100% auto no-repeat;
   background-size: cover;
@@ -143,24 +148,15 @@ header {
 }
 
 .slide_01 .slider {
-  width: 100vw;
-  height: 100vh;
-  margin-bottom: 0;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 60px;
 }
 
-.slide_01 .slick-slide .slider_column {
-  width: 100vw;
-  height: 100vh;
-}
-
-.slide_01 .autoplay .column_01 {
-  background: url("/img/bg/index_bg_1_1.png") no-repeat;
-  background-size: cover;
-}
-
-.slide_01 .autoplay .column_02 {
-  background: url("/img/bg/index_bg_1_2.png") no-repeat;
-  background-size: cover;
+.slide_01 .slick-slide .column {
+  width: 100%;
+  height: 262px;
+  text-align: left;
 }
 
 .slide_01 .slick-prev,
@@ -169,11 +165,8 @@ header {
 }
 
 .slide_01 .slick-dots {
-  top: 30%;
-  left: 50%;
+  top: -45px;
   bottom: auto;
-  transform: translate(-50%, -50%);
-  max-width: 1460px;
   display: flex;
 }
 
@@ -206,14 +199,6 @@ header {
   cursor: pointer;
 }
 
-.slide_01 .column {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: auto;
-}
-
 .slide_01 .title_desc {
   font-size: 24px;
   font-weight: 300;
@@ -242,7 +227,6 @@ header {
   font-weight: 500;
   line-height: 1.33;
   letter-spacing: -0.45px;
-  text-align: left;
   color: #fff;
   word-break: break-word;
 }
@@ -255,7 +239,6 @@ header {
   padding: 0 32px;
   display: flex;
   align-items: center;
-  margin-top: 30px;
 }
 
 .slide_01 .news_card .title {
@@ -678,8 +661,7 @@ header {
 
 @media all and (max-width: 1650px) {
   #header-middle-area,
-  .swiper-slide .inner,
-  .slide_01 .slick-dots {
+  .swiper-slide .inner {
     padding: 0 4vw;
   }
 
@@ -714,6 +696,11 @@ header {
     display: none !important;
   }
 
+  .swiper-slide:nth-child(1) {
+    background: url(../img/bg/index_bg_1.png) 50% / 100% auto no-repeat;
+    background-size: cover;
+  }
+
   .swiper-slide:nth-child(2) {
     background: url(../img/bg/index_bg_2.png) 50% / 100% auto no-repeat;
     background-size: cover;
@@ -727,22 +714,6 @@ header {
   .swiper-slide:nth-child(5) .container {
     background: url(../img/bg/index_bg_5.png) 50% / 100% auto no-repeat;
     background-size: cover;
-  }
-
-  .slide_01 .autoplay .column_01 {
-    background: url("/img/bg/index_bg_1_1.png") no-repeat;
-    background-size: cover;
-    background-position: 40% 0px;
-  }
-
-  .slide_01 .autoplay .column_02 {
-    background: url("/img/bg/index_bg_1_2.png") no-repeat;
-    background-size: cover;
-    background-position: 40% 0px;
-  }
-
-  .slide_01 .slick-dots {
-    top: 34%;
   }
 
   .slide_01 .title_desc {
@@ -761,6 +732,10 @@ header {
     max-width: 500px;
     height: 60px;
     padding: 0 20px;
+  }
+
+  .slide_01 .slick-slide .column {
+    height: 200px;
   }
 
   .slide_01 .news_card .title,
@@ -848,6 +823,11 @@ header {
 }
 
 @media all and (max-width: 768px) {
+  .swiper-slide:nth-child(1) {
+    background: url(../img/bg/index_bg_1.png) 60% / 100% auto no-repeat;
+    background-size: cover;
+  }
+
   .swiper-slide:nth-child(2) {
     background: url(../img/bg/index_bg_2.png) 60% / 100% auto no-repeat;
     background-size: cover;
@@ -865,30 +845,6 @@ header {
 
   .swiper-slide .txt h2 {
     font-size: 30px;
-  }
-
-  .slide_01 .autoplay .column_01 {
-    background: url("/img/bg/index_bg_1_1.png") no-repeat;
-    background-size: cover;
-    background-position: 60% 0px;
-  }
-
-  .slide_01 .autoplay .column_02 {
-    background: url("/img/bg/index_bg_1_2.png") no-repeat;
-    background-size: cover;
-    background-position: 60% 0px;
-  }
-
-  .slide_01 .column {
-    top: 280px;
-    left: 0;
-    transform: none;
-  }
-
-  .slide_01 .slick-dots {
-    top: 250px;
-    left: 0;
-    transform: none;
   }
 
   .slide_02 .txt h2 {
@@ -953,6 +909,11 @@ header {
     font-size: 10px;
   }
 
+  .swiper-slide:nth-child(1) {
+    background: url(../img/bg/index_bg_1.png) 70% / 100% auto no-repeat;
+    background-size: cover;
+  }
+
   .swiper-slide:nth-child(2) {
     background: url(../img/bg/index_bg_2.png) 70% / 100% auto no-repeat;
     background-size: cover;
@@ -991,16 +952,8 @@ header {
     height: 8px;
   }
 
-  .slide_01 .column {
-    top: 230px;
-    left: 0;
-    transform: none;
-  }
-
   .slide_01 .slick-dots {
-    top: 220px;
-    left: 0;
-    transform: none;
+    top: -25px;
   }
 
   .slide_01 .title_desc {
@@ -1014,6 +967,14 @@ header {
   .slide_01 .desc_txt {
     font-size: 12px;
     margin-top: 10px;
+  }
+
+  .slide_01 .slick-slide .column {
+    height: 162px;
+  }
+
+  .slide_01 .slider {
+    margin-bottom: 20px;
   }
 
   .slide_01 .news_card {
