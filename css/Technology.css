@@ -468,7 +468,7 @@ section p.desc {
   padding: 10px 40px;
 }
 
-.sec_07 .card_wrap .card.active {
+.sec_07 .card_wrap .card:hover {
   background: #2d60a0;
   color: #fff;
 }

@@ -8,6 +8,7 @@ nav ul li {
 
 img[alt="link"] {
   cursor: pointer;
+  width: 20px;
 }
 
 .sec_01 {
@@ -248,6 +249,10 @@ img[alt="link"] {
   height: 2.4em;
 }
 
+.pagenation {
+  margin: 50px 0 50px;
+}
+
 @media all and (max-width: 1200px) {
   .sec_01 .swiper-slide {
     height: 360px;
@@ -264,9 +269,6 @@ img[alt="link"] {
   .sec_01 .swiper-slide .desc,
   .sec_01 .swiper-slide .regdate {
     font-size: 16px;
-  }
-  img[alt="link"] {
-    width: 26px;
   }
 
   .sec_02 .date_column .day {
@@ -382,6 +384,10 @@ img[alt="link"] {
   .sec_02 .board_wrap {
     padding: 24px 0;
   }
+
+  .pagenation {
+    margin: 30px 0 0 !important;
+  }
 }
 
 @media all and (max-width: 414px) {
@@ -402,10 +408,6 @@ img[alt="link"] {
   .sec_01 .swiper-slide .desc {
     -webkit-line-clamp: 5;
     height: 7.5em;
-  }
-
-  img[alt="link"] {
-    width: 20px;
   }
 
   .sec_01 .swiper-slide .card_wrap {

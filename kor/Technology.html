@@ -239,13 +239,6 @@
           </ul>
         </div>
 
-        <nav class="web_ver">
-          <div class="inner">
-            <ul>
-              <li class="active"><a href="Technology.html">기술 소개</a></li>
-            </ul>
-          </div>
-        </nav>
         <div class="title_column">
           <div class="inner">
             <h2>기술 소개</h2>
@@ -527,14 +520,14 @@
 
             <div class="card_ct">
               <div class="card_wrap">
-                <div class="card active">
+                <div class="card" data-title="tech_01">
                   <img src="/img/icon/tech_01.png" alt="icon" class="icon" />
                   <span class="desc"
                     >단계적 개량기술을 통해 고역가 IgY로 제조하는 항원-이종항체
                     복합체 특허기술 보유</span
                   >
                 </div>
-                <div class="card center">
+                <div class="card center" data-title="tech_02">
                   <img src="/img/icon/tech_02.png" alt="icon" class="icon" />
                   <span class="desc"
                     >유행주 발생에 대처하기 위한 대응 체계 확립</span
@@ -547,7 +540,7 @@
                 </ul>
               </div>
               <div class="card_wrap">
-                <div class="card">
+                <div class="card" data-title="tech_03">
                   <img src="/img/icon/tech_03.png" alt="icon" class="icon" />
                   <span class="desc"
                     >최적 복합항원으로 생산한 IgY는 바이러스/세균성 질병을
@@ -555,7 +548,7 @@
                     (타사 평균: 3~4종 IgY 함유)
                   </span>
                 </div>
-                <div class="card center">
+                <div class="card center" data-title="tech_04">
                   <img src="/img/icon/tech_04.png" alt="icon" class="icon" />
                   <span class="desc"
                     >고역가/고함량 IgY 생산기술로 글로벌 시장 진출 확대</span
@@ -641,6 +634,26 @@
           nextEl: ".swiper-button-next2",
           prevEl: ".swiper-button-prev2",
         },
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".sec_07 .card_wrap .card").hover(
+          function () {
+            var imgName = $(this).attr("data-title") + "_white";
+            // $(this).css("color", "red");
+            console.log();
+            $(this)
+              .children()
+              .attr("src", "/img/icon/" + imgName + ".png");
+          },
+          function () {
+            var imgName = $(this).attr("data-title");
+            $(this)
+              .children()
+              .attr("src", "/img/icon/" + imgName + ".png");
+          }
+        );
       });
     </script>
     <script src="../js/scripts.js"></script>
