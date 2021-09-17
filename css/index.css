@@ -1080,6 +1080,10 @@ header {
     margin-top: 12px;
   }
 
+  .slide_05 .container {
+    padding-top: 0;
+  }
+
   .slide_05 .inner {
     padding: 50px 4vw 0;
   }
