@@ -1,147 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
 
-.main_title {
-  background: url("../img/bg/sub/company.png") center / cover no-repeat;
+.main_title { background: url("../img/bg/sub/company.png") center / cover no-repeat; }.title_column { padding-bottom: 50px; }
+.title_column .inner { background: url("../img/greeting_01.png") 0px 0px / 100% auto no-repeat; height: 500px; }
+.sec_01 { padding-bottom: 60px; }.sec_01 .inner { display: flex; }
+.sec_01 .ceo_msg { margin-right: 3.3vw; }
+.sec_01 .ceo_msg h3 { font-size: 24px; font-weight: 300; line-height: 1.67; letter-spacing: -0.6px; text-align: left; color: #0075c1; }
+.sec_01 .ceo_msg p { font-size: 36px; font-weight: 500; line-height: 1.11; letter-spacing: -0.9px; text-align: left; color: #020202; }
+.sec_01 .ceo_msg_ct { flex: 1; font-size: 17px; font-weight: 500; line-height: 1.41; letter-spacing: -0.17px; }
+.sec_01 .ceo_msg_ct p { text-align: left; color: #6c6c6c; word-break: keep-all; margin-bottom: 34px; }
+.sec_01 .ceo_msg_ct .sign { text-align: right; color: #252525; }
+.sec_01 .ceo_msg_ct .sign strong { margin: 0 10px; font-family: "Nanum Pen Script", cursive; font-size: 36px; font-weight: normal; letter-spacing: -0.36px; }
+@media all and (max-width: 1460px) { 
+  .title_column .inner { height: 35vw; }
 }
-
-.title_column {
-  padding-bottom: 50px;
+@media all and (max-width: 1024px) { 
+  .title_column h2 { font-size: 40px; }
+  .sec_01 .ceo_msg h3 { font-size: 22px; }
+  .sec_01 .ceo_msg p { font-size: 30px; }
+  .sec_01 .ceo_msg_ct .sign strong { font-size: 32px; }
 }
-
-.title_column .inner {
-  background: url("../img/greeting_01.png") 0px 0px / 100% auto no-repeat;
-  height: 500px;
-}
-
-.sec_01 {
-  padding-bottom: 60px;
-}
-.sec_01 .inner {
-  display: flex;
-}
-
-.sec_01 .ceo_msg {
-  margin-right: 3.3vw;
-}
-
-.sec_01 .ceo_msg h3 {
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 1.67;
-  letter-spacing: -0.6px;
-  text-align: left;
-  color: #0075c1;
-}
-
-.sec_01 .ceo_msg p {
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 1.11;
-  letter-spacing: -0.9px;
-  text-align: left;
-  color: #020202;
-}
-
-.sec_01 .ceo_msg_ct {
-  flex: 1;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.41;
-  letter-spacing: -0.17px;
-}
-
-.sec_01 .ceo_msg_ct p {
-  text-align: left;
-  color: #6c6c6c;
-  word-break: keep-all;
-  margin-bottom: 34px;
-}
-
-.sec_01 .ceo_msg_ct .sign {
-  text-align: right;
-  color: #252525;
-}
-
-.sec_01 .ceo_msg_ct .sign strong {
-  margin: 0 10px;
-  font-family: "Nanum Pen Script", cursive;
-  font-size: 36px;
-  font-weight: normal;
-  letter-spacing: -0.36px;
-}
-
-@media all and (max-width: 1460px) {
-  .title_column .inner {
-    height: 35vw;
-  }
-}
-
-@media all and (max-width: 1024px) {
-  .title_column h2 {
-    font-size: 40px;
-  }
-
-  .sec_01 .ceo_msg h3 {
-    font-size: 22px;
-  }
-
-  .sec_01 .ceo_msg p {
-    font-size: 30px;
-  }
-
-  .sec_01 .ceo_msg_ct .sign strong {
-    font-size: 32px;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .title_column {
-    display: block !important;
-  }
-
+@media all and (max-width: 768px) { 
+  .title_column { display: block !important; }
   .title_column h2,
-  .title_column .title_info {
-    display: none;
-  }
-
-  .title_column .inner {
-    background: url("../img/greeting_02.png") right 0px / 100% auto no-repeat;
-    height: 54vw;
-    min-height: 168px;
-  }
-
-  .sec_01 {
-    min-height: 700px;
-  }
-
-  .sec_01 .inner {
-    flex-direction: column;
-  }
-
-  .sec_01 .ceo_msg h3 {
-    font-size: 20px;
-  }
-
-  .sec_01 .ceo_msg p {
-    font-size: 26px;
-  }
-
-  .sec_01 .ceo_msg_ct {
-    margin-top: 5.2vw;
-    font-size: 16px;
-  }
-
-  .sec_01 .ceo_msg_ct p {
-    margin-bottom: 10vw;
-  }
+  .title_column .title_info { display: none; }
+  .title_column .inner { background: url("../img/greeting_02.png") right 0px / 100% auto no-repeat; height: 54vw; min-height: 168px; }
+  .sec_01 { min-height: 700px; }
+  .sec_01 .inner { flex-direction: column; }
+  .sec_01 .ceo_msg h3 { font-size: 20px; }
+  .sec_01 .ceo_msg p { font-size: 26px; }
+  .sec_01 .ceo_msg_ct { margin-top: 5.2vw; font-size: 16px; }
+  .sec_01 .ceo_msg_ct p { margin-bottom: 10vw; }
 }
-
-@media all and (max-width: 414px) {
-  .sec_01 .ceo_msg h3 {
-    font-size: 18px;
-  }
-
-  .sec_01 .ceo_msg p {
-    font-size: 24px;
-  }
+@media all and (max-width: 414px) { 
+  .sec_01 .ceo_msg h3 { font-size: 18px; }
+  .sec_01 .ceo_msg p { font-size: 24px; }
 }

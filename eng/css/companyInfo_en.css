@@ -1,0 +1,9 @@
+.sec_01 .over_column .title, .sec_01 .over_column .tail { text-align: center; padding: 0 4px; }
+.sec_02 .co_info .addr { line-height: normal; }
+@media all and (max-width: 768px) {
+  .sec_02 { padding: 720px 0 90px !important; }
+}
+@media all and (max-width: 414px) {
+  .sec_02 { padding: 500px 0 90px !important; }
+  .sec_01 .over_column .title, .sec_01 .over_column .tail { height: 42px !important; }
+}

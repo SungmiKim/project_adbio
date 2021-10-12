@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body { font-family: "Roboto", sans-serif !important; }
+* { word-break: keep-all; }.ls-5e { letter-spacing: -0.05em !important; }
+#menu ul.sub_wrap { width: 150%; left: -25%; }
+nav ul li a { text-align: center !important; }
+.disclosure .main_title .location span { flex: 0; }
+#footer .dropbtn { width: 134px !important; padding: 0 10px !important; }
+@media all and (max-width: 1400px) { 
+  #menu .menu01 ul.sub_wrap { left: -50%; }
+  #menu .menu02 ul.sub_wrap { left: -40%; }
+  #menu .menu03 ul.sub_wrap { left: -30%; }
+  #menu .menu04 ul.sub_wrap { left: 0%; }
+  #menu .menu05 ul.sub_wrap { left: 20%; }
+  #menu .menu06 ul.sub_wrap { left: 10%; }
+}
+@media all and (max-width: 1200px) { 
+  #menu .menu01 ul.sub_wrap { left: -80%; }
+  #menu .menu02 ul.sub_wrap { left: -60%; }
+  #menu .menu03 ul.sub_wrap { left: -30%; }
+  #menu .menu04 ul.sub_wrap { left: 10%; }
+  #menu .menu05 ul.sub_wrap { left: 35%; }
+  #menu .menu06 ul.sub_wrap { left: 40%; }
+  #footer .column .info .bar { margin: 0 1px !important; }
+}
+@media all and (max-width: 1024px) { 
+  #menu .menu01 ul.sub_wrap,
+  #menu .menu02 ul.sub_wrap,
+  #menu .menu03 ul.sub_wrap,
+  #menu .menu04 ul.sub_wrap,
+  #menu .menu05 ul.sub_wrap,
+  #menu .menu06 ul.sub_wrap { width: 100%; left: 0; }
+}
+@media all and (max-width: 768px) { 
+  .tab_btns a { min-width: auto !important; }
+}

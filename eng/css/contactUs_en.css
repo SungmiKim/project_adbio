@@ -1,0 +1,4 @@
+@media all and (max-width: 414px) { 
+  .qna_info li img { margin: 0 10px !important; }
+  .qna_info li.tech span { text-align: center; }
+}

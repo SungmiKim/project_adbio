@@ -1,0 +1,16 @@
+.buy_btn { font-size: 19px; text-align: center; }
+.buy_btn img { margin: 0 12px; }.sec_02 .fun_column:nth-child(4) .fun_name { line-height: 1.2; }
+@media all and (max-width: 900px) { .buy_btn { font-size: 18px; }}
+@media all and (max-width: 768px) { 
+  .tab_btns a { min-width: auto !important; }
+  .buy_btn { font-size: 16px; }
+  .sec_01 .search_wrap select { width: 190px; }
+  .sec_02 .fun_column:nth-child(4) .fun_name { line-height: 2.35; }
+  .sec_02 .fun_column:nth-child(4) .fun_name > div { display: inline-block; }
+}
+@media all and (max-width: 480px) { 
+  .sec_01 .search_wrap { flex-direction: column; }
+  .sec_01 .search_wrap .select_box { margin-bottom: 20px; }
+  .sec_01 .search_wrap .keyword_box { max-width: 350px; width: 80%; margin-left: 0; }
+  .sec_01 .fav_keyword a { width: auto; padding: 0 10px; }
+}

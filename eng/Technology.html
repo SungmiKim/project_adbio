@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>ADBIOTECH</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/swiper/swiper.css" />
+    <link rel="stylesheet" href="./css/commonEng.css" />
+    <link rel="stylesheet" href="./css/Technology_en.css" />
+    <link rel="stylesheet" href="../css/Technology.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="wrapper">
+        <div class="menu_bg"></div>
+        <header id="header">
+          <div class="header_area active">
+            <div id="header-middle-area">
+              <div class="header-middle">
+                <div
+                  class="logo"
+                  onclick="location.href='../eng/index.html'"
+                ></div>
+
+                <!-- 웹 메뉴 -->
+                <div id="menu" class="web_menu">
+                  <ul class="wrap">
+                    <li class="menu_step01 menu01">
+                      <div class="wrap">
+                        <a href="companyInfo.html">COMPANY</a>
+                        <span onclick="dropMoMenu(1)">COMPANY</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/company.png"
+                            alt="company"
+                            title="company"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="companyInfo.html">About&nbsp;Company</a>
+                        </li>
+                        <li>
+                          <a href="greeting.html">CEO&nbsp;Greetings</a>
+                        </li>
+                        <li>
+                          <a href="history.html">History</a>
+                        </li>
+                        <li>
+                          <a href="contactUs.html">Directions</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu02">
+                      <div class="wrap">
+                        <a href="Technology.html">TECHNOLOGY</a>
+                        <span onclick="dropMoMenu(2)">TECHNOLOGY</span>
+                      </div>
+
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/technology.png"
+                            alt="technology"
+                            title="technology"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="Technology.html">About&nbsp;Technology</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu03">
+                      <div class="wrap">
+                        <a href="productLivestock.html">PRODUCT</a>
+                        <span onclick="dropMoMenu(3)">PRODUCT</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/product.png"
+                            alt="product"
+                            title="product"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="productLivestock.html"
+                            >Livestock&nbsp;·&nbsp;fisheries</a
+                          >
+                        </li>
+                        <li>
+                          <a href="productFood.html">Food</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu04">
+                      <div class="wrap">
+                        <a href="stockPrice.html">INVESTORS</a>
+                        <span onclick="dropMoMenu(4)">INVESTORS</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/stock.png"
+                            alt="stock"
+                            title="stock"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="stockPrice.html"
+                            >Stock&nbsp;Price&nbsp;Information</a
+                          >
+                        </li>
+                        <li>
+                          <a href="finance.html">Financial&nbsp;Information</a>
+                        </li>
+                        <li>
+                          <a href="disclosure.html"
+                            >Public Notice / Announcement</a
+                          >
+                        </li>
+                        <li>
+                          <a href="irDataA.html">IR자료실</a>
+                        </li>
+                        <li>
+                          <a href="stockInfo.html">Stock information</a>
+                        </li>
+                        <li>
+                          <a href="irContact.html">IR CONTACT</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu05">
+                      <div class="wrap">
+                        <a href="Notice.html">NOTICE</a>
+                        <span onclick="dropMoMenu(5)">NOTICE</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/notice.png"
+                            alt="notice"
+                            title="notice"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="Notice.html">Notice</a>
+                        </li>
+                        <li>
+                          <a href="Press.html">Press Release</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu06">
+                      <div class="wrap">
+                        <a href="support.html">SUPPORT</a>
+                        <span onclick="dropMoMenu(6)">SUPPORT</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/support.png"
+                            alt="support"
+                            title="support"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="support.html">Online Inquiry</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="side_btn">
+                  <div class="language lang_icon">
+                    <div class="balloon">
+                      <div class="balloon_column">
+                        <a href="index.html">KOR</a>
+                      </div>
+                      <div class="balloon_column">
+                        <a href="../eng/index.html">ENG</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bar"></div>
+                  <div class="munu_min">
+                    <div>MENU</div>
+                    <div class="dots">
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="main_title">
+          <div class="inner">
+            <a href="contactUs.html" class="prev_page move_page">
+              <div class="bar"></div>
+              <div class="name">How to Get to Us</div>
+            </a>
+            <div class="center_title">
+              <div class="name">COMPANY</div>
+              <div class="location">
+                <img
+                  src="../img/icon/loc_home.png"
+                  alt="home"
+                  title="home"
+                  class="step_01 web_ver"
+                />
+                <span class="arrow web_ver">&gt;</span>
+                <span class="step_02 web_ver">COMPANY</span>
+                <span class="arrow web_ver">&gt;</span>
+                <span class="step_03">About Technology</span>
+              </div>
+            </div>
+            <a href="productLivestock.html" class="next_page move_page">
+              <div class="name">Livestock and fisheries</div>
+              <div class="bar"></div>
+            </a>
+          </div>
+          <ul class="mo_ver sub_menu">
+            <li class="active">
+              <a href="Technology.html">About&nbsp;Technology</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="title_column">
+          <div class="inner">
+            <h2>About Technolog</h2>
+            <div class="title_info">
+              Introducing ADBIOTECH’s technology intended to replace vaccines
+              and antibiotics.
+            </div>
+          </div>
+        </div>
+        <section class="sec_01">
+          <div class="inner">
+            <div class="over_wrap">
+              <h3>
+                For you to eat safe food,<br />
+                ADBIOTECH’s Central Research Institute strives to research
+                technology and develop products.
+              </h3>
+              <div class="title_desc">
+                ADBIOTECH’s Central Research Institute is an affiliated research
+                institute certified by the Korea Industrial Technology
+                Association and was established to research and develop
+                pharmaceuticals, oral antibody products for livestock and
+                fisheries, cosmetics, and food additives using egg yolk antibody
+                (IgY) technology.
+              </div>
+              <div class="over_ct">
+                <div class="over_column">
+                  <div>
+                    <div class="desc">
+                      for medicine, livestock, fishery, and cosmetics
+                    </div>
+                    <div class="title">Yolk antibody technology</div>
+                  </div>
+                  <div class="num">01</div>
+                </div>
+                <div class="over_column">
+                  <div>
+                    <div class="desc">
+                      for specific diseases in humans and livestock
+                    </div>
+                    <div class="title">Natural substances</div>
+                  </div>
+                  <div class="num">02</div>
+                </div>
+                <div class="over_column">
+                  <div>
+                    <div class="desc">to enhance immunity</div>
+                    <div class="title">Supplements</div>
+                  </div>
+                  <div class="num">03</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_02">
+          <div class="inner">
+            <div class="title_wrap">
+              <div>
+                <h4>Patent</h4>
+                <p class="desc">
+                  It shows the current status of patents held by ADBIOTECH.
+                </p>
+              </div>
+              <div class="info_wrap">
+                <div class="box">
+                  <h5>Registration</h5>
+                  <ul>
+                    <li>Domestic - 28</li>
+                    <li>Overseas - 08</li>
+                    <li class="sum">Subtotal - 34</li>
+                  </ul>
+                </div>
+                <div class="box">
+                  <h5>Application</h5>
+                  <ul>
+                    <li>Domestic - 02</li>
+                    <li>Overseas - 11</li>
+                    <li class="sum">Subtotal - 13</li>
+                  </ul>
+                </div>
+                <div class="box">
+                  <h5>Trademark Rights</h5>
+                  <ul>
+                    <li>Domestic - 19</li>
+                    <li>Overseas - 07</li>
+                    <li class="sum">Subtotal - 26</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="table">
+              <div class="cate">Classification</div>
+              <ul class="column lists">
+                <li>Preservation method of yolk antibody</li>
+                <li>A Solution for Preservation of IgY</li>
+                <li>
+                  Feed additive composition for reduce stress and
+                  anti-inflammation
+                </li>
+                <li>
+                  Composition of food additives of Piglets containing IgY from
+                  egg yolk for preventing of porcine epidemic diarrhea or
+                  transmissible gastroenteritis
+                </li>
+                <li>Yolk antibody for Helicobacter pylori</li>
+                <li>
+                  The method of preparing an inactivated vaccine comprising
+                  antigen-antibody complex and the use of thereof as veterinary
+                  composition
+                </li>
+                <li>
+                  Antibody for shrimp’s early mortality syndrome and white spot
+                  syndrome virus, and applications thereof
+                </li>
+                <li>Yolk antibody for Helicobacter pylori and uses thereof</li>
+                <li>뿌리혹 선충 방제용 서방형 미생물 제제 및 이의 제조방법</li>
+                <li>돼지 소화기성 질병의 예방 또는 치료용 난황항체 제조방법</li>
+                <li>
+                  연어 리케차성 패혈증 예방 또는 치료용 난황항체의 제조방법
+                </li>
+                <li>항 헬리코박터 파이로리 난황항체 제조방법</li>
+                <li>
+                  콜레스테롤 흡수 억제를 통한 비만 예방 또는 치료용 난황항체
+                  제조방법
+                </li>
+              </ul>
+              <ul class="column list">
+                <li>
+                  장 내 콜레스테롤 흡수 억제를 통한 고지혈증 및 비만 억제용 식품
+                  조성물(미국)
+                </li>
+              </ul>
+              <div class="column">Exclusive license</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_03">
+          <div class="inner">
+            <h4>IgY technology</h4>
+
+            <div class="column">
+              <div>
+                <img src="../img/icon/IgY_icon.png" alt="IgY" title="IgY" />
+                <span class="title">INFORMATION</span>
+              </div>
+              <ul>
+                <li>
+                  Applied the principle that antibodies are made in the body
+                  after vaccination and the formed immune antibodies are passed
+                  on to offspring.
+                </li>
+                <li>
+                  Immune antibodies of oviparous animals are produced,
+                  accumulated, and transmitted through the yolk of the mother.
+                </li>
+                <li>
+                  ADBIOTECH owns special technology that enables to control of
+                  diseases by applying lgY technology (heterologous antibody
+                  technology) to various products.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_04">
+          <div class="inner">
+            <h4>IgY(Immunoglobulin in Yolk) Technology</h4>
+            <p class="desc">Immune antibodies are produced by using the yolk</p>
+            <div class="column">
+              <div>
+                <img src="../img/Technology_04.png" alt="Technology" />
+              </div>
+              <div>
+                <img src="./img/Technology_05.png" alt="Technology" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_05">
+          <div class="inner">
+            <div class="column">
+              <h4>Direction of IgY product development</h4>
+              <ul>
+                <li>
+                  Fields with no fundamental treatment to combat viral diseases
+                </li>
+                <li>Diseases that vaccines cannot prevent</li>
+                <li>
+                  Aquatic organisms cannot prevent disease with vaccines because
+                  they have only a non-specific immune system
+                </li>
+                <li>
+                  When the use of antibiotics was banned due to antibiotic
+                  residue and issues of food safety
+                </li>
+                <li>
+                  Fields without antibiotics and treatments due to
+                  antibiotic-resistant bacteria
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <h4>Expansion of IgY technology</h4>
+              <ul>
+                <li>
+                  IgY is much more convenient to administer than vaccines
+                  because it prevents diseases by oral administration in a way
+                  that delivers passive immunity.
+                </li>
+                <li>
+                  IgY technology enables rapid response to the latest trend
+                </li>
+                <li>
+                  IgY is an egg-derived antibody, a disease-resistant material
+                  with secured safety
+                </li>
+                <li>Applicable to the human body (health functional food)</li>
+                <li>A natural material applicable to various products</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_06">
+          <div class="inner">
+            <h4>Production capacity</h4>
+            <p class="desc">
+              Can respond to orders of large quantity depending on production
+              facilities, antigen libraries, antigen production, and vaccination
+              programs
+            </p>
+
+            <div class="content">
+              <img src="../img/Technology_09.png" alt="logo" />
+              <ul class="left">
+                <li class="list_01">
+                  <div class="num">01</div>
+                  <div class="title">Production facility</div>
+                  <div class="desc">
+                    Antigen produced in a facility approved for Biosafety level
+                    2 <br />
+                    Established and standardized mass production process for
+                    viruses, bacteria, and recombinant proteins <br />
+                    Optimized mass production methods for each antigen <br />
+                    Produced raw materials and established a systematic quality
+                    management system
+                  </div>
+                </li>
+                <li class="list_02">
+                  <div class="num">02</div>
+                  <div class="title">Antigen production</div>
+                  <div class="desc">
+                    We have the technology of manufacturing antigen to produce
+                    products with high antibody titers differentiated from other
+                    companies<br />
+                    We have the technology for manufacturing complex antigens
+                    for virus and bacteria complex antigens and recombinant
+                    proteins <br />
+                    We have the technology to concentrate and refine highly
+                    concentrated antigen and antibodies and a patent registered
+                    for thermal stability.
+                  </div>
+                </li>
+              </ul>
+
+              <ul>
+                <li class="list_03">
+                  <div class="num">03</div>
+                  <div class="title">Antigen library</div>
+                  <div class="desc">
+                    There are about 300 species including viruses, bacteria, and
+                    recombinant antigens that cause digestive diseases<br />
+                    Continuous analysis and application of new disease
+                    pathogens<br />
+                    Producing recombinant protein for disease-causing agents
+                    that cannot be applied, such as parasites, cholesterol, and
+                    fertilized egg culture
+                  </div>
+                </li>
+                <li class="list_04">
+                  <div class="num">04</div>
+                  <div class="title">Vaccination program</div>
+                  <div class="desc">
+                    Research on the combination of complex antigen that can
+                    produce optimal antibody titers against existing and new
+                    antigens<br />
+                    Optimized the program through preliminary tests for the
+                    vaccination intervals for complex antigen/vaccine amount,
+                    the number of vaccination, etc. <br />
+                    When a new antigen is developed, we search for an optimized
+                    ratio through a preliminary test, and carry out mass
+                    vaccination of the farm
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="sec_07">
+          <div class="inner">
+            <h4>ADBIOTECH’s differentiated technology</h4>
+
+            <div class="card_ct">
+              <div class="card_wrap">
+                <div class="card" data-title="tech_01">
+                  <img src="../img/icon/tech_01.png" alt="icon" class="icon" />
+                  <span class="desc"
+                    >Patented technology for antigen-heterologous antibody
+                    complex manufactured with high titer IgY
+                  </span>
+                </div>
+                <div class="card center" data-title="tech_02">
+                  <img src="../img/icon/tech_02.png" alt="icon" class="icon" />
+                  <span class="desc"
+                    >Established a response system to deal with outbreaks of
+                    circulating viruses
+                  </span>
+                </div>
+                <ul class="lists">
+                  <li>
+                    1.Owning antigen library → Changing to circulating viruses
+                  </li>
+                  <li>
+                    2.Monitoring circulating viruses → Isolating and obtaining
+                    wild circulating viruses
+                  </li>
+                  <li>
+                    3.Securing SAB, the latest information → Changing the
+                    composition of complex antigens
+                  </li>
+                </ul>
+              </div>
+              <div class="card_wrap">
+                <div class="card" data-title="tech_03">
+                  <img src="../img/icon/tech_03.png" alt="icon" class="icon" />
+                  <span class="desc"
+                    >IgY produced as an optimal complex antigen can
+                    simultaneously inhibit viral/bacterial diseases. Contains
+                    IgY against 5-7 types of disease-causing bacteria (average
+                    of other companies: contains 3-4 types of IgY)
+                  </span>
+                </div>
+                <div class="card center" data-title="tech_04">
+                  <img src="../img/icon/tech_04.png" alt="icon" class="icon" />
+                  <span class="desc"
+                    >Expanding entry into the global market with highly
+                    potent/high-content IgY production technology</span
+                  >
+                </div>
+                <ul class="lists">
+                  <li>
+                    1. Comprising complex antigens with the latest circulating
+                    viruses considering the target market
+                  </li>
+                  <li>
+                    2. Producing highly potent IgY with the patented technology;
+                    Check the comparative advantage of high titer IgY compared
+                    to local products
+                  </li>
+                  <li>
+                    3. Validating effectiveness of IgY through local
+                    universities or specialized research institutes
+                  </li>
+                  <li>
+                    4. Exporting/selling IgY products to 10 countries, including
+                    China and Japan
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer id="footer">
+        <div class="inner">
+          <img
+            src="../img/logo_footer.png"
+            alt="logo"
+            title="logo"
+            class="logo"
+          />
+          <div class="content">
+            <div class="wapper">
+              <div class="column">
+                <div class="name co_name">ADBIOTECH Co., Ltd.</div>
+                <div>CEO : Hong-gul Cheong</div>
+                <div>Business registration number : 215-81-93416</div>
+              </div>
+              <div class="column">
+                <div class="name">CONTACT</div>
+                <div class="info">
+                  <div>
+                    Telephone: 033-261-4907
+                    <span class="bar"></span>
+                  </div>
+                  <div>
+                    Fax: 033-261-4920
+                    <span class="bar"></span>
+                  </div>
+                  <div>email: gildong@domain.com</div>
+                </div>
+                <div>
+                  Address: 39 Geodanji 1-gil, Dongnae-myeon, Chuncheon-si,
+                  Gangwon-do
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Related websites</button>
+                <div class="dropdown-content">
+                  <a href="#">Home</a>
+                  <a href="#">company introduction</a>
+                  <a href="#">product description</a>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              COPYRIGHT © 2021 ADBioTech., All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../js/swiper/swiper.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper1 = new Swiper(".swiper-container1", {
+        navigation: {
+          nextEl: ".swiper-button-next1",
+          prevEl: ".swiper-button-prev1",
+        },
+      });
+      var swiper2 = new Swiper(".swiper-container2", {
+        navigation: {
+          nextEl: ".swiper-button-next2",
+          prevEl: ".swiper-button-prev2",
+        },
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".sec_07 .card_wrap .card").hover(
+          function () {
+            var imgName = $(this).attr("data-title") + "_white";
+            // $(this).css("color", "red");
+            console.log();
+            $(this)
+              .children()
+              .attr("src", "../img/icon/" + imgName + ".png");
+          },
+          function () {
+            var imgName = $(this).attr("data-title");
+            $(this)
+              .children()
+              .attr("src", "../img/icon/" + imgName + ".png");
+          }
+        );
+      });
+    </script>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>

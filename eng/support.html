@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>ADBIOTECH</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/support.css" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+    <link rel="stylesheet" href="./css/commonEng.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="wrapper">
+        <div class="menu_bg"></div>
+        <header id="header">
+          <div class="header_area active">
+            <div id="header-middle-area">
+              <div class="header-middle">
+                <div
+                  class="logo"
+                  onclick="location.href='../eng/index.html'"
+                ></div>
+
+                <!-- 웹 메뉴 -->
+                <div id="menu" class="web_menu">
+                  <ul class="wrap">
+                    <li class="menu_step01 menu01">
+                      <div class="wrap">
+                        <a href="companyInfo.html">COMPANY</a>
+                        <span onclick="dropMoMenu(1)">COMPANY</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/company.png"
+                            alt="company"
+                            title="company"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="companyInfo.html">About&nbsp;Company</a>
+                        </li>
+                        <li>
+                          <a href="greeting.html">CEO&nbsp;Greetings</a>
+                        </li>
+                        <li>
+                          <a href="history.html">History</a>
+                        </li>
+                        <li>
+                          <a href="contactUs.html">Directions</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu02">
+                      <div class="wrap">
+                        <a href="Technology.html">TECHNOLOGY</a>
+                        <span onclick="dropMoMenu(2)">TECHNOLOGY</span>
+                      </div>
+
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/technology.png"
+                            alt="technology"
+                            title="technology"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="Technology.html">About&nbsp;Technology</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu03">
+                      <div class="wrap">
+                        <a href="productLivestock.html">PRODUCT</a>
+                        <span onclick="dropMoMenu(3)">PRODUCT</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/product.png"
+                            alt="product"
+                            title="product"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="productLivestock.html"
+                            >Livestock&nbsp;·&nbsp;fisheries</a
+                          >
+                        </li>
+                        <li>
+                          <a href="productFood.html">Food</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu04">
+                      <div class="wrap">
+                        <a href="stockPrice.html">INVESTORS</a>
+                        <span onclick="dropMoMenu(4)">INVESTORS</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/stock.png"
+                            alt="stock"
+                            title="stock"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="stockPrice.html"
+                            >Stock&nbsp;Price&nbsp;Information</a
+                          >
+                        </li>
+                        <li>
+                          <a href="finance.html">Financial&nbsp;Information</a>
+                        </li>
+                        <li>
+                          <a href="disclosure.html"
+                            >Public Notice / Announcement</a
+                          >
+                        </li>
+                        <li>
+                          <a href="irDataA.html">IR자료실</a>
+                        </li>
+                        <li>
+                          <a href="stockInfo.html">Stock information</a>
+                        </li>
+                        <li>
+                          <a href="irContact.html">IR CONTACT</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu05">
+                      <div class="wrap">
+                        <a href="Notice.html">NOTICE</a>
+                        <span onclick="dropMoMenu(5)">NOTICE</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/notice.png"
+                            alt="notice"
+                            title="notice"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="Notice.html">Notice</a>
+                        </li>
+                        <li>
+                          <a href="Press.html">Press Release</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu06">
+                      <div class="wrap">
+                        <a href="support.html">SUPPORT</a>
+                        <span onclick="dropMoMenu(6)">SUPPORT</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/support.png"
+                            alt="support"
+                            title="support"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="support.html">Online Inquiry</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="side_btn">
+                  <div class="language lang_icon">
+                    <div class="balloon">
+                      <div class="balloon_column">
+                        <a href="index.html">KOR</a>
+                      </div>
+                      <div class="balloon_column">
+                        <a href="../eng/index.html">ENG</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bar"></div>
+                  <div class="munu_min">
+                    <div>MENU</div>
+                    <div class="dots">
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="main_title">
+          <div class="inner">
+            <a href="Notice.html" class="prev_page move_page">
+              <div class="bar"></div>
+              <div class="name">Notice</div>
+            </a>
+            <div class="center_title">
+              <div class="name">SUPPORT</div>
+              <div class="location">
+                <img
+                  src="../img/icon/loc_home.png"
+                  alt="home"
+                  title="home"
+                  class="step_01 web_ver"
+                />
+                <span class="arrow web_ver">&gt;</span>
+                <span class="step_02 web_ver">SUPPORT</span>
+                <span class="arrow web_ver">&gt;</span>
+                <span class="step_03">Online Inquiry</span>
+              </div>
+            </div>
+            <a href="Notice.html" class="next_page move_page">
+              <div class="name">Notice</div>
+              <div class="bar"></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="title_column">
+          <div class="inner">
+            <h2>Online Inquiry</h2>
+            <div class="title_info">
+              We introduce ADBIOTECH’s technology intended to replace vaccines
+              and antibiotics.
+            </div>
+          </div>
+        </div>
+        <section class="sec_01">
+          <div class="inner">
+            <div class="in_wrap contact">
+              <!-- <h3>IR 문의</h3> -->
+              <!-- <p>코웨이는 IR정보를 투자자분들께 빠르게 전달하기 위하여 언제나 노력하고 있습니다.</p> -->
+              <h4>개인정보 수집 이용동의</h4>
+              <div class="personal_info">
+                <div class="in_wrap">
+                  <p>
+                    주식회사 애드바이오텍은 개인정보의 처리와 관련하여 관계
+                    법령에 따라 개인정보가 안전하게 관리될 수 있도록 필요한
+                    사항을 규정하고 있습니다.
+                  </p>
+                  <p>
+                    <strong>수집 개인정보 항목</strong> : 이름, 이메일,
+                    전화번호, 회사명
+                  </p>
+                  <p>
+                    <strong>수집 이용 목적</strong> : 문의 사항에 대한 답변 목적
+                  </p>
+                  <p>
+                    <strong>보유기간</strong> : 상담 신청 등록일로부터 1년 보관
+                    후 파기
+                  </p>
+                </div>
+                <div class="check">
+                  <p>
+                    위와 같이 개인정보를 수집 &middot; 이용하는데 동의하십니까?
+                  </p>
+                  <div class="form">
+                    <input
+                      type="radio"
+                      name="Rule_1"
+                      id="R_agree"
+                      value="y"
+                      class="checkbox__style"
+                    />
+                    <label for="R_agree" class="checkbox__style">동의함</label>
+                    <input
+                      type="radio"
+                      name="Rule_1"
+                      id="R_disagree"
+                      value="n"
+                      class="checkbox__style"
+                    />
+                    <label for="R_disagree" class="checkbox__style"
+                      >동의하지 않음</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <h4>
+                신청인 정보<span><em>*</em> 필수입력정보</span>
+              </h4>
+              <div class="table_wrap">
+                <form action="">
+                  <table class="contact_table">
+                    <tbody>
+                      <tr>
+                        <td>이름 <span>*</span></td>
+                        <td><input type="text" name="" id="" /></td>
+                      </tr>
+                      <tr>
+                        <td>부서명</td>
+                        <td><input type="text" name="" id="" /></td>
+                      </tr>
+                      <tr>
+                        <td>연락처 <span>*</span></td>
+                        <td><input type="text" name="" id="" /></td>
+                      </tr>
+                      <tr>
+                        <td>직장명 <span>*</span></td>
+                        <td><input type="text" name="" id="" /></td>
+                      </tr>
+                      <tr>
+                        <td>직책</td>
+                        <td><input type="text" name="" id="" /></td>
+                      </tr>
+                      <tr>
+                        <td>E-mail <span>*</span></td>
+                        <td><input type="text" name="" id="" /></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </form>
+              </div>
+              <h4>문의사항 <em class="dot">*</em></h4>
+              <div class="text_wrap">
+                <form action="">
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
+                </form>
+              </div>
+              <div class="send_btn">
+                <button class="send">확인</button>
+                <button class="cancle">취소</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer id="footer">
+        <div class="inner">
+          <img
+            src="../img/logo_footer.png"
+            alt="logo"
+            title="logo"
+            class="logo"
+          />
+          <div class="content">
+            <div class="wapper">
+              <div class="column">
+                <div class="name co_name">ADBIOTECH Co., Ltd.</div>
+                <div>CEO : Hong-gul Cheong</div>
+                <div>Business registration number : 215-81-93416</div>
+              </div>
+              <div class="column">
+                <div class="name">CONTACT</div>
+                <div class="info">
+                  <div>
+                    Telephone: 033-261-4907
+                    <span class="bar"></span>
+                  </div>
+                  <div>
+                    Fax: 033-261-4920
+                    <span class="bar"></span>
+                  </div>
+                  <div>email: gildong@domain.com</div>
+                </div>
+                <div>
+                  Address: 39 Geodanji 1-gil, Dongnae-myeon, Chuncheon-si,
+                  Gangwon-do
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Related websites</button>
+                <div class="dropdown-content">
+                  <a href="#">Home</a>
+                  <a href="#">company introduction</a>
+                  <a href="#">product description</a>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              COPYRIGHT © 2021 ADBioTech., All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>ADBIOTECH</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/swiper/swiper.css" />
+    <link rel="stylesheet" href="../css/slick/slick.css" />
+    <link rel="stylesheet" href="../css/slick/slick-theme.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+    <link rel="stylesheet" href="./css/index_en.css" />
+    <link rel="stylesheet" href="./css/commonEng.css" />
+  </head>
+  <body class="index">
+    <div class="menu_bg"></div>
+    <header id="header">
+      <div class="header_area">
+        <div id="header-middle-area">
+          <div class="header-middle">
+            <div class="logo" onclick="location.href='../eng/index.html'"></div>
+
+            <!-- 웹 메뉴 -->
+            <div id="menu" class="web_menu">
+              <ul class="wrap">
+                <li class="menu_step01 menu01">
+                  <div class="wrap">
+                    <a href="companyInfo.html">COMPANY</a>
+                    <span onclick="dropMoMenu(1)">COMPANY</span>
+                  </div>
+                  <ul class="sub_wrap">
+                    <li class="menu_icon">
+                      <img
+                        src="../img/icon/company.png"
+                        alt="company"
+                        title="company"
+                      />
+                      <div class="bar"></div>
+                    </li>
+                    <li>
+                      <a href="companyInfo.html">About&nbsp;Company</a>
+                    </li>
+                    <li>
+                      <a href="greeting.html">CEO&nbsp;Greetings</a>
+                    </li>
+                    <li>
+                      <a href="history.html">History</a>
+                    </li>
+                    <li>
+                      <a href="contactUs.html">Directions</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu_step01 menu02">
+                  <div class="wrap">
+                    <a href="Technology.html">TECHNOLOGY</a>
+                    <span onclick="dropMoMenu(2)">TECHNOLOGY</span>
+                  </div>
+
+                  <ul class="sub_wrap">
+                    <li class="menu_icon">
+                      <img
+                        src="../img/icon/technology.png"
+                        alt="technology"
+                        title="technology"
+                      />
+                      <div class="bar"></div>
+                    </li>
+                    <li>
+                      <a href="Technology.html">About&nbsp;Technology</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu_step01 menu03">
+                  <div class="wrap">
+                    <a href="productLivestock.html">PRODUCT</a>
+                    <span onclick="dropMoMenu(3)">PRODUCT</span>
+                  </div>
+                  <ul class="sub_wrap">
+                    <li class="menu_icon">
+                      <img
+                        src="../img/icon/product.png"
+                        alt="product"
+                        title="product"
+                      />
+                      <div class="bar"></div>
+                    </li>
+                    <li>
+                      <a href="productLivestock.html"
+                        >Livestock&nbsp;·&nbsp;fisheries</a
+                      >
+                    </li>
+                    <li>
+                      <a href="productFood.html">Food</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu_step01 menu04">
+                  <div class="wrap">
+                    <a href="stockPrice.html">INVESTORS</a>
+                    <span onclick="dropMoMenu(4)">INVESTORS</span>
+                  </div>
+                  <ul class="sub_wrap">
+                    <li class="menu_icon">
+                      <img
+                        src="../img/icon/stock.png"
+                        alt="stock"
+                        title="stock"
+                      />
+                      <div class="bar"></div>
+                    </li>
+                    <li>
+                      <a href="stockPrice.html"
+                        >Stock&nbsp;Price&nbsp;Information</a
+                      >
+                    </li>
+                    <li>
+                      <a href="finance.html">Financial&nbsp;Information</a>
+                    </li>
+                    <li>
+                      <a href="disclosure.html">Public Notice / Announcement</a>
+                    </li>
+                    <li>
+                      <a href="irDataA.html">IR자료실</a>
+                    </li>
+                    <li>
+                      <a href="stockInfo.html">stock information</a>
+                    </li>
+                    <li>
+                      <a href="irContact.html">IR CONTACT</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu_step01 menu05">
+                  <div class="wrap">
+                    <a href="Notice.html">NOTICE</a>
+                    <span onclick="dropMoMenu(5)">NOTICE</span>
+                  </div>
+                  <ul class="sub_wrap">
+                    <li class="menu_icon">
+                      <img
+                        src="../img/icon/notice.png"
+                        alt="notice"
+                        title="notice"
+                      />
+                      <div class="bar"></div>
+                    </li>
+                    <li>
+                      <a href="Notice.html">Notice</a>
+                    </li>
+                    <li>
+                      <a href="Press.html">Press Release</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu_step01 menu06">
+                  <div class="wrap">
+                    <a href="support.html">SUPPORT</a>
+                    <span onclick="dropMoMenu(6)">SUPPORT</span>
+                  </div>
+                  <ul class="sub_wrap">
+                    <li class="menu_icon">
+                      <img
+                        src="../img/icon/support.png"
+                        alt="support"
+                        title="support"
+                      />
+                      <div class="bar"></div>
+                    </li>
+                    <li>
+                      <a href="support.html">Online Inquiry</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <div class="side_btn">
+              <div class="language lang_icon">
+                <div class="balloon">
+                  <div class="balloon_column">
+                    <a href="index.html">KOR</a>
+                  </div>
+                  <div class="balloon_column">
+                    <a href="../eng/index.html">ENG</a>
+                  </div>
+                </div>
+              </div>
+              <div class="bar"></div>
+              <div class="munu_min">
+                <div>MENU</div>
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main -->
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide_01">
+          <div class="autoplay slider" data-sizes="50vw">
+            <div class="slider_column column_01"></div>
+            <div class="slider_column column_02"></div>
+          </div>
+          <div class="column inner">
+            <div class="title_desc">
+              Next-generation’s immune antibody developer
+            </div>
+            <div class="column_title">
+              NEXT-GENERATION <br />
+              IMMUNE ANTIBODY <br />
+              <span>DEVELOPMENT BIO&nbsp;COMPANY</span>
+            </div>
+            <div class="desc_txt">
+              AdBiotech is constantly trying to jump higher. <br />
+              Welcome to global life sciences leading the more advanced IgY
+              field.
+            </div>
+            <div class="news_card">
+              <div class="title">NEWS</div>
+              <div class="desc">
+                <a href="noticeDetail.html">
+                  (주)애드바이오텍 홈페이지가 새롭게 오픈했습니다.
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide_02">
+          <div class="inner">
+            <div class="txt">
+              <h2>
+                CREATE <br />
+                A BETTER FUTURE
+              </h2>
+              <div class="desc">
+                <div>
+                  As the world’s only leading developer of immune antibodies for
+                  livestock, fisheries, <br />
+                  and the human body, ADBIOTECH Co., Ltd., is developing various
+                  products that can replace vaccines <br />and antibiotics based
+                  on technological know-how accumulated over the past 16 years.
+                </div>
+              </div>
+            </div>
+            <div class="card_wrap">
+              <div class="card_column">
+                <div class="txt">
+                  <h4>Immune antibody production technology</h4>
+                  <span
+                    >Based on the antibody production technology using eggs and
+                    nanobodies, we have developed a variety of products to
+                    prevent and treat diseases in livestock, fisheries, and
+                    humans that replace vaccines and antibiotics.</span
+                  >
+                </div>
+                <img
+                  src="../img/icon/card_icon_01.png"
+                  alt="icon"
+                  title="icon"
+                />
+              </div>
+              <div class="card_column">
+                <div class="txt">
+                  <h4>Various pipelines</h4>
+                  <span
+                    >We have developed antibody products for IgY fisheries such
+                    as salmon, shrimp, and eel at the request of foreign
+                    countries and continue research by applying them to various
+                    fields such as human helico IgY and cholesterol IgY.</span
+                  >
+                </div>
+                <img
+                  src="../img/icon/card_icon_02.png"
+                  alt="icon"
+                  title="icon"
+                />
+              </div>
+              <div class="card_column">
+                <div class="txt">
+                  <h4>Realizing sales</h4>
+                  <span
+                    >We are an R&D and manufacturing company that leads
+                    livestock IgY products to sales in Korea and overseas and
+                    sells the newly developed fishery IgY products, engaging in
+                    all stages: Research → Development → Production →
+                    Sales</span
+                  >
+                </div>
+                <img
+                  src="../img/icon/card_icon_03.png"
+                  alt="icon"
+                  title="icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide_03">
+          <div class="inner">
+            <div class="txt">
+              <h2>A BETTER PRODUCT</h2>
+              <div class="desc">
+                ADBIOTECH Co., Ltd. develops core products in various fields
+                such as livestock, food, and cosmetics based on lgY technology.
+              </div>
+            </div>
+            <div class="card_wrap">
+              <div class="card_column">
+                <div class="img_wrap">
+                  <img src="../img/main_card_01.jpg" alt="card" title="card" />
+                  <div class="bg_txt">Livestock</div>
+                </div>
+              </div>
+              <div class="card_column">
+                <div class="img_wrap">
+                  <img src="../img/main_card_02.jpg" alt="card" title="card" />
+                  <div class="bg_txt">fisheries</div>
+                </div>
+              </div>
+              <div class="card_column">
+                <div class="img_wrap">
+                  <img src="../img/main_card_03.jpg" alt="card" title="card" />
+                  <div class="bg_txt">food</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide_04">
+          <div class="inner">
+            <div class="txt">
+              <h2>
+                GROW UP <br />
+                WITH ADBIOTECH
+              </h2>
+              <div class="desc">
+                ADBIOTECH, developing 'IgY immune antibodies' for humans,
+                livestock, and aquaculture to lead the immune industry
+              </div>
+            </div>
+            <div class="card_wrap">
+              <div class="card_column">
+                <h3 class="title">
+                  <a href="pressDetail.html">
+                    애드바이오텍, 인체용·축산용·For fish 'IgY 면역항체' 개발하며
+                    면역 산업 선도
+                  </a>
+                </h3>
+                <div class="desc">
+                  질병의 백신과 그 부작용에 대한 관심이 나날이 높아지고 있다.
+                  질병 예방에는 백신이 가장 중요하다. 그러나 안타깝게도 모든
+                  질병에 100% 완벽한 백신이 있다고 확신할 수는 없다. 부작용 없이
+                  질병을 예방하는 가장 근본적이고 효과적인 방법은 바로 몸의
+                  면역력을 증가시키는 것이다.
+                </div>
+                <div class="regdate">2021.06.21</div>
+              </div>
+              <div class="card_column">
+                <h3 class="title">
+                  <a href="pressDetail.html">
+                    애드바이오텍, 씽크리에이티브와 마케팅 전략적 제휴...
+                  </a>
+                </h3>
+                <div class="desc">
+                  새로운 개념의 백신과 항생제 대체물질(IgY, Immunoglobulin in
+                  Yolk)인 인체용, 축산 및 For fish 항체제품, 기능성소재 및
+                  식품첨가물 등 환경친화적인 제품을 연구개발하는
+                  ㈜애드바이오텍(대표이사 정홍걸)과 건강기능식품과 제약분야의
+                  전문마케팅 기업인 종합광고대행사 ㈜씽크리에이티브(대표
+                  임대성)와...
+                </div>
+                <div class="regdate">2021.05.04</div>
+              </div>
+              <div class="card_column">
+                <h3 class="title">
+                  <a href="pressDetail.html">
+                    애드바이오텍-한국생명공학연구원, 건강기능식품 시장 본격 진출
+                  </a>
+                </h3>
+                <div class="desc">
+                  ㈜애드바이오텍(대표이사 정홍걸)은 한국생명공학연구원(원장
+                  김장성)이 보유한 적소두 추출물을 이용한 기능성식품 원료의
+                  기술에 대해 이전 계약을 체결하고 건강기능성 식품 시장에
+                  본격적으로 진출한다. ㈜애드바이오텍은 8월 4일 대전에 위치한
+                  한국생명공학연구원 본원에서 관절, 아토피, 면역 및...
+                </div>
+                <div class="regdate">2022.08.06</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide_05">
+          <div class="container">
+            <div class="inner">
+              <div class="txt">
+                <h2>INVESTORS</h2>
+                <div class="desc">
+                  ADBIOTECH Co., Ltd. is leading the immune antibody industry.
+                </div>
+              </div>
+              <div class="card_wrap">
+                <div class="card_column stock_card">
+                  <div class="title_column">
+                    <h3>Stock Quotes</h3>
+                    <span class="today"> 2021.06.28. 10:58:15 </span>
+                  </div>
+                  <div class="current_price">9,950 <span>KRW</span></div>
+                  <div class="current_info">
+                    <div class="column">
+                      <span class="name">Volume(stocks)</span>
+                      <span class="num">1,745 </span>
+                    </div>
+                    <div class="column">
+                      <span class="name">Change(KRW)</span>
+                      <span class="num range down">▼&nbsp;50</span>
+                    </div>
+                    <div class="column">
+                      <span class="name">% Change</span>
+                      <span class="num per">-0.5%</span>
+                    </div>
+                  </div>
+                  <div class="stock_info">
+                    <div class="column">
+                      <div class="total_col">
+                        <span class="name">KOSPI</span>
+                        <span class="num">3,227.95</span>
+                      </div>
+                      <div class="num_col">
+                        <span class="num range up">▲ 11.77</span>
+                        <span class="num per">+0.37%</span>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="total_col">
+                        <span class="name">KOSDAQ</span>
+                        <span class="num">987.46</span>
+                      </div>
+                      <div class="num_col">
+                        <span class="num range up">▲ 8.67</span>
+                        <span class="num per">+0.89%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card_column board_card">
+                  <h3>IR 자료실</h3>
+                  <div class="content">
+                    <div class="column">
+                      <div class="title">
+                        [2020] 제21기 감사보고서 및 사업보고서
+                      </div>
+                      <div class="regdate">2021-04-30</div>
+                    </div>
+                    <div class="column">
+                      <div class="title">
+                        [2020] 제21기 감사보고서 및 사업보고서
+                      </div>
+                      <div class="regdate">2021-04-30</div>
+                    </div>
+                    <div class="column">
+                      <div class="title">
+                        [2020] 제21기 감사보고서 및 사업보고서
+                      </div>
+                      <div class="regdate">2021-04-30</div>
+                    </div>
+                    <div class="column">
+                      <div class="title">
+                        [2020] 제21기 감사보고서 및 사업보고서
+                      </div>
+                      <div class="regdate">2021-04-30</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer id="footer">
+            <div class="inner">
+              <img
+                src="../img/logo_footer.png"
+                alt="logo"
+                title="logo"
+                class="logo"
+              />
+              <div class="content">
+                <div class="wapper">
+                  <div class="column">
+                    <div class="name co_name">ADBIOTECH Co., Ltd.</div>
+                    <div>CEO : Hong-gul Cheong</div>
+                    <div>Business registration number : 215-81-93416</div>
+                  </div>
+                  <div class="column">
+                    <div class="name">CONTACT</div>
+                    <div class="info">
+                      <div>
+                        Telephone: 033-261-4907
+                        <span class="bar"></span>
+                      </div>
+                      <div>
+                        Fax: 033-261-4920
+                        <span class="bar"></span>
+                      </div>
+                      <div>email: gildong@domain.com</div>
+                    </div>
+                    <div>
+                      Address: 39 Geodanji 1-gil, Dongnae-myeon, Chuncheon-si,
+                      Gangwon-do
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="dropbtn">Related websites</button>
+                    <div class="dropdown-content">
+                      <a href="#">Home</a>
+                      <a href="#">company introduction</a>
+                      <a href="#">product description</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="copyright">
+                  COPYRIGHT © 2021 ADBioTech., All rights reserved.
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="scroll">
+      <img src="../img/icon/scroll.png" alt="scroll" title="scroll" />
+      <!-- <img src="../img/icon/scroll_black.png" alt="scroll" title="scroll" /> -->
+      <span>Scroll</span>
+    </div>
+    <!-- Swiper JS -->
+    <script src="../js/swiper/swiper.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        direction: "vertical",
+        speed: 1000,
+        mousewheel: true,
+        keyboard: {
+          enabled: true,
+          onlyInViewport: false,
+        },
+        allowTouchMove: false,
+        // touchRatio: 0, //드래그 금지
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        on: {
+          transitionEnd: function () {
+            if (swiper.realIndex !== 0) {
+              $("#header .header_area").addClass("active");
+            } else {
+              $("#header .header_area").removeClass("active");
+            }
+          },
+          transitionStart: function () {
+            if (swiper.realIndex === 4) {
+              $(".scroll").css("display", "none");
+            } else if (swiper.realIndex === 2) {
+              $(".scroll span").css("color", "#000");
+              $(".scroll img").attr("src", "../img/icon/scroll_black.png");
+            } else {
+              $(".scroll").css("display", "flex");
+              $(".scroll span").css("color", "#fff");
+              $(".scroll img").attr("src", "../img/icon/scroll.png");
+            }
+          },
+        },
+        breakpoints: {
+          1024: {
+            allowTouchMove: true,
+          },
+        },
+      });
+    </script>
+
+    <!-- slick -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../js/slick/slick.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script>
+      $(document).on("ready", function () {
+        $(".autoplay").slick({
+          lazyLoad: "ondemand", // ondemand progressive anticipated
+          dots: true,
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+        });
+
+        $(".slick-dots").append(
+          "<img src='../img/icon/stop.png' alt='stop' title='stop' class='slick_stop' />"
+        );
+
+        $(".slick_stop").on("click", function () {
+          $(".autoplay").slick("slickPause");
+        });
+      });
+    </script>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.sec_01 .ceo_msg { max-width: 400px; }
+@media all and (max-width: 1024px) {
+  .sec_01 .ceo_msg { max-width: 280px; }
+}
+@media all and (max-width: 768px) {
+  .sec_01 .ceo_msg { max-width: 100%; }
+  .sec_01 .ceo_msg_ct .sign strong { font-size: 28px !important; display: block; }
+}

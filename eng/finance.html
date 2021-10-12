@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>ADBIOTECH</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/investors.css" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+    <link rel="stylesheet" href="./css/commonEng.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="wrapper">
+        <div class="menu_bg"></div>
+        <header id="header">
+          <div class="header_area active">
+            <div id="header-middle-area">
+              <div class="header-middle">
+                <div
+                  class="logo"
+                  onclick="location.href='../eng/index.html'"
+                ></div>
+
+                <!-- 웹 메뉴 -->
+                <div id="menu" class="web_menu">
+                  <ul class="wrap">
+                    <li class="menu_step01 menu01">
+                      <div class="wrap">
+                        <a href="companyInfo.html">COMPANY</a>
+                        <span onclick="dropMoMenu(1)">COMPANY</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/company.png"
+                            alt="company"
+                            title="company"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="companyInfo.html">About&nbsp;Company</a>
+                        </li>
+                        <li>
+                          <a href="greeting.html">CEO&nbsp;Greetings</a>
+                        </li>
+                        <li>
+                          <a href="history.html">History</a>
+                        </li>
+                        <li>
+                          <a href="contactUs.html">Directions</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu02">
+                      <div class="wrap">
+                        <a href="Technology.html">TECHNOLOGY</a>
+                        <span onclick="dropMoMenu(2)">TECHNOLOGY</span>
+                      </div>
+
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/technology.png"
+                            alt="technology"
+                            title="technology"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="Technology.html">About&nbsp;Technology</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu03">
+                      <div class="wrap">
+                        <a href="productLivestock.html">PRODUCT</a>
+                        <span onclick="dropMoMenu(3)">PRODUCT</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/product.png"
+                            alt="product"
+                            title="product"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="productLivestock.html"
+                            >Livestock&nbsp;·&nbsp;fisheries</a
+                          >
+                        </li>
+                        <li>
+                          <a href="productFood.html">Food</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu04">
+                      <div class="wrap">
+                        <a href="stockPrice.html">INVESTORS</a>
+                        <span onclick="dropMoMenu(4)">INVESTORS</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/stock.png"
+                            alt="stock"
+                            title="stock"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="stockPrice.html"
+                            >Stock&nbsp;Price&nbsp;Information</a
+                          >
+                        </li>
+                        <li>
+                          <a href="finance.html">Financial&nbsp;Information</a>
+                        </li>
+                        <li>
+                          <a href="disclosure.html"
+                            >Public Notice / Announcement</a
+                          >
+                        </li>
+                        <li>
+                          <a href="irDataA.html">IR자료실</a>
+                        </li>
+                        <li>
+                          <a href="stockInfo.html">Stock information</a>
+                        </li>
+                        <li>
+                          <a href="irContact.html">IR CONTACT</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu05">
+                      <div class="wrap">
+                        <a href="Notice.html">NOTICE</a>
+                        <span onclick="dropMoMenu(5)">NOTICE</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/notice.png"
+                            alt="notice"
+                            title="notice"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="Notice.html">Notice</a>
+                        </li>
+                        <li>
+                          <a href="Press.html">Press Release</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu06">
+                      <div class="wrap">
+                        <a href="support.html">SUPPORT</a>
+                        <span onclick="dropMoMenu(6)">SUPPORT</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/support.png"
+                            alt="support"
+                            title="support"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="support.html">Online Inquiry</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="side_btn">
+                  <div class="language lang_icon">
+                    <div class="balloon">
+                      <div class="balloon_column">
+                        <a href="index.html">KOR</a>
+                      </div>
+                      <div class="balloon_column">
+                        <a href="../eng/index.html">ENG</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bar"></div>
+                  <div class="munu_min">
+                    <div>MENU</div>
+                    <div class="dots">
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="main_title">
+          <div class="inner">
+            <a href="stockPrice.html" class="prev_page move_page">
+              <div class="bar"></div>
+              <div class="name">Stock price information</div>
+            </a>
+            <div class="center_title">
+              <div class="name">INVESTORS</div>
+              <div class="location">
+                <img
+                  src="../img/icon/loc_home.png"
+                  alt="home"
+                  title="home"
+                  class="step_01 web_ver"
+                />
+                <span class="arrow web_ver">&gt;</span>
+                <span class="step_02 web_ver">INVESTORS</span>
+                <span class="arrow web_ver">&gt;</span>
+                <span class="step_03"
+                  >Financial Information
+                  <img
+                    src="../img/icon/drop_sub_menu.png"
+                    alt="drop"
+                    title="drop"
+                    class="mo_ver drop_sub_menu"
+                    onclick="subMenu()"
+                  />
+                </span>
+              </div>
+            </div>
+            <a href="disclosure.html" class="next_page move_page">
+              <div class="name">Public Notice · Announcement</div>
+              <div class="bar"></div>
+            </a>
+          </div>
+
+          <ul class="mo_ver sub_menu">
+            <li>
+              <a href="stockPrice.html">Stock&nbsp;Price&nbsp;Information</a>
+            </li>
+            <li class="active">
+              <a href="finance.html">Financial&nbsp;Information</a>
+            </li>
+            <li><a href="disclosure.html">Public Notice / Announcement</a></li>
+            <li><a href="irDataA.html">IR자료실</a></li>
+            <li><a href="stockInfo.html">Stock information</a></li>
+            <li><a href="irContact.html">IR Contact</a></li>
+          </ul>
+        </div>
+
+        <nav class="web_ver">
+          <div class="inner">
+            <ul>
+              <li>
+                <a href="stockPrice.html">Stock Price Information</a>
+              </li>
+              <li class="active">
+                <a href="finance.html">Financial Information</a>
+              </li>
+              <li>
+                <a href="disclosure.html">Public Notice / Announcement</a>
+              </li>
+              <li><a href="irDataA.html">IR자료실</a></li>
+              <li><a href="stockInfo.html">Stock information</a></li>
+              <li><a href="irContact.html">IR Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="title_column">
+          <div class="inner">
+            <h2>Financial Information</h2>
+            <div class="title_info">
+              We introduce ADBIOTECH’s technology intended to replace vaccines
+              and antibiotics.
+            </div>
+            <div class="tab_btns">
+              <a href="finance.html" class="active">연결재무제표</a>
+              <a href="financeIndividual.html">개별재무제표</a>
+            </div>
+          </div>
+        </div>
+        <section class="sec_01">
+          <div class="inner">
+            <div id="irpack_wrap">
+              <!-- <ul class="btn finance">
+					<li><a href="./dailystock.html">현재주가</a></li>
+					<li class="on"><a href="./finance.html">재무정보</a></li>
+					<li><a href="./disclosure.html">공시&middot;공고</a></li>
+					<li><a href="./irdata.html">IR 자료실</a></li>
+					<li><a href="./stockinfo.html">주식정보</a></li>
+					<li><a href="./ircontact.html">IR Contact</a></li>
+				</ul> -->
+              <div class="in_wrap finance">
+                <!-- <ul class="sub_btn">
+						<a href="./finance.html" class="active">연결재무제표</a>
+						<a href="./financeIndividual.html" class="">개별재무제표</a>
+					</ul> -->
+                <div class="tab_container">
+                  <div class="tab_content">
+                    <div class="chart_area">
+                      <div>
+                        <h3>매출액</h3>
+                        <div class="chart chart_1">
+                          <!-- <img src="./img/sample_finance_1.jpg" alt=""> -->
+                        </div>
+                      </div>
+                      <div>
+                        <h3>영업이익</h3>
+                        <div class="chart chart_1">
+                          <!-- <img src="./img/sample_finance_2.jpg" alt=""> -->
+                        </div>
+                      </div>
+                      <div>
+                        <h3>당기순이익</h3>
+                        <div class="chart chart_1">
+                          <!-- <img src="./img/sample_finance_3.jpg" alt=""> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="income_state statement">
+                      <h3>손익계산서</h3>
+                      <div class="table_wrap">
+                        <table class="finance">
+                          <thead>
+                            <tr>
+                              <th>항목</th>
+                              <th>2018</th>
+                              <th>2019</th>
+                              <th>2020</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>매출액</td>
+                              <td>1,998,320</td>
+                              <td>2,120,329</td>
+                              <td>2,189,076</td>
+                            </tr>
+                            <tr>
+                              <td>매출총이익</td>
+                              <td>545,513</td>
+                              <td>543,339</td>
+                              <td>545,900</td>
+                            </tr>
+                            <tr>
+                              <td>영업이익</td>
+                              <td>192,729</td>
+                              <td>190,298</td>
+                              <td>193,036</td>
+                            </tr>
+                            <tr>
+                              <td>영업외수익</td>
+                              <td>22,928</td>
+                              <td>15,636</td>
+                              <td>7,636</td>
+                            </tr>
+                            <tr>
+                              <td>영업외비용</td>
+                              <td>20,709</td>
+                              <td>20,074</td>
+                              <td>28,590</td>
+                            </tr>
+                            <tr>
+                              <td>당기순이익</td>
+                              <td>101,070</td>
+                              <td>141,011</td>
+                              <td>132,930</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="chart_area">
+                      <div>
+                        <h3>자산총계</h3>
+                        <div class="chart chart_1">
+                          <!-- <img src="./img/sample_finance_1.jpg" alt=""> -->
+                        </div>
+                      </div>
+                      <div>
+                        <h3>부채총계</h3>
+                        <div class="chart chart_1">
+                          <!-- <img src="./img/sample_finance_2.jpg" alt=""> -->
+                        </div>
+                      </div>
+                      <div>
+                        <h3>자본총계</h3>
+                        <div class="chart chart_1">
+                          <!-- <img src="./img/sample_finance_3.jpg" alt=""> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="financial_state statement">
+                      <h3>재무상태표</h3>
+                      <div class="table_wrap">
+                        <table class="finance">
+                          <thead>
+                            <tr>
+                              <th>항목</th>
+                              <th>2018</th>
+                              <th>2019</th>
+                              <th>2020</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>유동자산(계)</td>
+                              <td>625,132</td>
+                              <td>691,061</td>
+                              <td>742,800</td>
+                            </tr>
+                            <tr>
+                              <td>비유동자산(계)</td>
+                              <td>1,020,850</td>
+                              <td>1,060,556</td>
+                              <td>1,106,685</td>
+                            </tr>
+                            <tr class="sum">
+                              <td>자산총계</td>
+                              <td>1,645,983</td>
+                              <td>1,751,617</td>
+                              <td>1,849,486</td>
+                            </tr>
+                            <tr>
+                              <td>유동부채(계)</td>
+                              <td>283,336</td>
+                              <td>357,659</td>
+                              <td>382,452</td>
+                            </tr>
+                            <tr>
+                              <td>비유동부채(계)</td>
+                              <td>106,822</td>
+                              <td>75,253</td>
+                              <td>102,100</td>
+                            </tr>
+                            <tr class="sum">
+                              <td>부채총계</td>
+                              <td>390,158</td>
+                              <td>432,912</td>
+                              <td>484,552</td>
+                            </tr>
+                            <tr>
+                              <td>자본금</td>
+                              <td>19,000</td>
+                              <td>19,000</td>
+                              <td>19,000</td>
+                            </tr>
+                            <tr>
+                              <td>자본잉여금</td>
+                              <td>192,960</td>
+                              <td>192,960</td>
+                              <td>192,914</td>
+                            </tr>
+                            <tr>
+                              <td>이익잉여금</td>
+                              <td>1,195,792</td>
+                              <td>1,258,111</td>
+                              <td>1,303,956</td>
+                            </tr>
+                            <tr class="sum">
+                              <td>자본총계</td>
+                              <td>1,255,825</td>
+                              <td>1,318,705</td>
+                              <td>1,364,934</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer id="footer">
+        <div class="inner">
+          <img
+            src="../img/logo_footer.png"
+            alt="logo"
+            title="logo"
+            class="logo"
+          />
+          <div class="content">
+            <div class="wapper">
+              <div class="column">
+                <div class="name co_name">ADBIOTECH Co., Ltd.</div>
+                <div>CEO : Hong-gul Cheong</div>
+                <div>Business registration number : 215-81-93416</div>
+              </div>
+              <div class="column">
+                <div class="name">CONTACT</div>
+                <div class="info">
+                  <div>
+                    Telephone: 033-261-4907
+                    <span class="bar"></span>
+                  </div>
+                  <div>
+                    Fax: 033-261-4920
+                    <span class="bar"></span>
+                  </div>
+                  <div>email: gildong@domain.com</div>
+                </div>
+                <div>
+                  Address: 39 Geodanji 1-gil, Dongnae-myeon, Chuncheon-si,
+                  Gangwon-do
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Related websites</button>
+                <div class="dropdown-content">
+                  <a href="#">Home</a>
+                  <a href="#">company introduction</a>
+                  <a href="#">product description</a>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              COPYRIGHT © 2021 ADBioTech., All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>

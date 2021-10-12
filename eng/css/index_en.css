@@ -1,0 +1,28 @@
+.slide_02 .card_column { max-width: 320px; height: 380px; }
+.slide_02 .card_column { display: flex; flex-direction: column; }
+.slide_02 .card_column img { margin: auto 44px 30px auto; }
+@media all and (max-width: 1400px) { 
+  .slide_05 .stock_card .current_info .column { text-align: center; }
+  .slide_05 .stock_card .current_info { line-height: 2 !important; }
+  .slide_05 .current_info .name { letter-spacing: -0.05em; }
+  .slide_05 .current_info .num { margin-right: 2px; }
+}
+@media all and (max-width: 1024px) { 
+  .slide_02 .card_column { height: 350px; }
+  .slide_02 .card_column img { margin: auto 44px 0 auto; }
+}
+@media all and (max-width: 900px) { 
+  .slide_02 .card_column { height: 410px; }
+}
+@media all and (max-width: 768px) { 
+  .slide_02 .card_column { max-width: none; height: auto; }
+  .slide_02 .card_column img { margin: auto 20px auto 0; }
+}
+@media all and (max-width: 414px) { 
+  .slide_02 .txt h2 { margin-bottom: 6px !important; }
+  .swiper-slide .txt .desc > div,
+  .slide_02 .card_column h4,
+  .slide_02 .card_column span { letter-spacing: -0.06em; }
+  .swiper-slide .txt .desc > div,
+  .slide_02 .card_column span { line-height: 1.2; }
+}

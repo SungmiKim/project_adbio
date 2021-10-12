@@ -1,34 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
 
-nav ul li {
-  height: 100%;
-  width: calc(100% / 6);
-  border-right: 1px solid #dedede;
-}
-
-.main_title {
-  background: url("../img/bg/sub/investors.png") center / cover no-repeat;
-}
-
-.sec_01 .inner {
-  width: 100%;
-  height: 500px;
-  background-color: coral;
-}
-
-@media all and (max-width: 768px) {
-  .title_column {
-    display: block !important;
-  }
-
+nav ul li { height: 100%; width: calc(100% / 6); border-right: 1px solid #dedede; }
+.main_title { background: url("../img/bg/sub/investors.png") center / cover no-repeat; }
+.sec_01 .inner { width: 100%; }
+@media all and (max-width: 768px) { 
+  .title_column { display: block !important; }
   .title_column h2,
-  .title_column .title_info {
-    display: none;
-  }
+  .title_column .title_info { display: none; }
 }
-
-@media all and (max-width: 414px) {
-  .wrapper {
-    padding-bottom: 30px;
-  }
+@media all and (max-width: 414px) { 
+  .wrapper { padding-bottom: 30px; }
 }

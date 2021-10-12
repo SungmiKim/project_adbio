@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>ADBIOTECH</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/swiper/swiper.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/productDetail.css" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+    <link rel="stylesheet" href="./css/commonEng.css" />
+    <link rel="stylesheet" href="./css/product_en.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="wrapper">
+        <div class="menu_bg"></div>
+        <header id="header">
+          <div class="header_area active">
+            <div id="header-middle-area">
+              <div class="header-middle">
+                <div
+                  class="logo"
+                  onclick="location.href='../eng/index.html'"
+                ></div>
+
+                <!-- 웹 메뉴 -->
+                <div id="menu" class="web_menu">
+                  <ul class="wrap">
+                    <li class="menu_step01 menu01">
+                      <div class="wrap">
+                        <a href="companyInfo.html">COMPANY</a>
+                        <span onclick="dropMoMenu(1)">COMPANY</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/company.png"
+                            alt="company"
+                            title="company"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="companyInfo.html">About&nbsp;Company</a>
+                        </li>
+                        <li>
+                          <a href="greeting.html">CEO&nbsp;Greetings</a>
+                        </li>
+                        <li>
+                          <a href="history.html">History</a>
+                        </li>
+                        <li>
+                          <a href="contactUs.html">Directions</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu02">
+                      <div class="wrap">
+                        <a href="Technology.html">TECHNOLOGY</a>
+                        <span onclick="dropMoMenu(2)">TECHNOLOGY</span>
+                      </div>
+
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/technology.png"
+                            alt="technology"
+                            title="technology"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="Technology.html">About&nbsp;Technology</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu03">
+                      <div class="wrap">
+                        <a href="productLivestock.html">PRODUCT</a>
+                        <span onclick="dropMoMenu(3)">PRODUCT</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/product.png"
+                            alt="product"
+                            title="product"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="productLivestock.html"
+                            >Livestock&nbsp;·&nbsp;fisheries</a
+                          >
+                        </li>
+                        <li>
+                          <a href="productFood.html">Food</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu04">
+                      <div class="wrap">
+                        <a href="stockPrice.html">INVESTORS</a>
+                        <span onclick="dropMoMenu(4)">INVESTORS</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/stock.png"
+                            alt="stock"
+                            title="stock"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="stockPrice.html"
+                            >Stock&nbsp;Price&nbsp;Information</a
+                          >
+                        </li>
+                        <li>
+                          <a href="finance.html">Financial&nbsp;Information</a>
+                        </li>
+                        <li>
+                          <a href="disclosure.html"
+                            >Public Notice / Announcement</a
+                          >
+                        </li>
+                        <li>
+                          <a href="irDataA.html">IR자료실</a>
+                        </li>
+                        <li>
+                          <a href="stockInfo.html">Stock information</a>
+                        </li>
+                        <li>
+                          <a href="irContact.html">IR CONTACT</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu05">
+                      <div class="wrap">
+                        <a href="Notice.html">NOTICE</a>
+                        <span onclick="dropMoMenu(5)">NOTICE</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/notice.png"
+                            alt="notice"
+                            title="notice"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="Notice.html">Notice</a>
+                        </li>
+                        <li>
+                          <a href="Press.html">Press Release</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu_step01 menu06">
+                      <div class="wrap">
+                        <a href="support.html">SUPPORT</a>
+                        <span onclick="dropMoMenu(6)">SUPPORT</span>
+                      </div>
+                      <ul class="sub_wrap">
+                        <li class="menu_icon">
+                          <img
+                            src="../img/icon/support.png"
+                            alt="support"
+                            title="support"
+                          />
+                          <div class="bar"></div>
+                        </li>
+                        <li>
+                          <a href="support.html">Online Inquiry</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="side_btn">
+                  <div class="language lang_icon">
+                    <div class="balloon">
+                      <div class="balloon_column">
+                        <a href="index.html">KOR</a>
+                      </div>
+                      <div class="balloon_column">
+                        <a href="../eng/index.html">ENG</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bar"></div>
+                  <div class="munu_min">
+                    <div>MENU</div>
+                    <div class="dots">
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="main_title">
+          <div class="inner">
+            <a href="Technology.html" class="prev_page move_page">
+              <div class="bar"></div>
+              <div class="name">About Technology</div>
+            </a>
+            <div class="center_title">
+              <div class="name">PRODUCT</div>
+              <div class="location">
+                <img
+                  src="../img/icon/loc_home.png"
+                  alt="home"
+                  title="home"
+                  class="step_01 web_ver"
+                />
+
+                <span class="arrow web_ver">&gt;</span>
+                <span class="step_02 web_ver">PRODUCT </span>
+                <span class="arrow web_ver">&gt;</span>
+                <span class="step_03"
+                  >Livestock and fisheries
+                  <img
+                    src="../img/icon/drop_sub_menu.png"
+                    alt="drop"
+                    title="drop"
+                    class="mo_ver drop_sub_menu"
+                    onclick="subMenu()"
+                  />
+                </span>
+              </div>
+            </div>
+            <a href="productFood.html" class="next_page move_page">
+              <div class="name">Food</div>
+              <div class="bar"></div>
+            </a>
+          </div>
+
+          <ul class="mo_ver sub_menu">
+            <li class="active">
+              <a href="productLivestock.html"
+                >Livestock&nbsp;·&nbsp;fisheries</a
+              >
+            </li>
+            <li><a href="productFood.html">Food</a></li>
+          </ul>
+        </div>
+
+        <nav class="web_ver">
+          <div class="inner">
+            <ul>
+              <li class="active">
+                <a href="productLivestock.html"
+                  >Livestock&nbsp;·&nbsp;fisheries</a
+                >
+              </li>
+              <li><a href="productFood.html">Food</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="title_column">
+          <div class="inner">
+            <h2>Livestock and fisheries</h2>
+            <div class="title_info">
+              We introduce ADBIOTECH’s technology intended to replace vaccines
+              and antibiotics.
+            </div>
+            <div class="tab_btns">
+              <a href="productLivestock.html" class="active">Livestock</a>
+              <a href="productFishery.html">Fisheries</a>
+            </div>
+          </div>
+        </div>
+
+        <section class="sec_01">
+          <div class="inner">
+            <div class="search_wrap">
+              <div class="select_box">
+                <select name="cate" id="cate">
+                  <option value="Product classification">
+                    Product classification
+                  </option>
+                  <option value="For cattle">For cattle</option>
+                  <option value="For pigs">For pigs</option>
+                  <option value="For poultry">For poultry</option>
+                  <option value="For fish">For fish</option>
+                  <option value="Others">Others</option>
+                </select>
+              </div>
+              <div class="keyword_box">
+                <input type="text" placeholder="Search here" />
+                <img
+                  src="../img/icon/search_icon.png"
+                  alt="search"
+                  class="search_icon"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_02">
+          <div class="inner">
+            <div class="thumb">
+              <img src="../img/sample_02.png" alt="sample" />
+            </div>
+            <div class="main_info">
+              <div class="en_title">SHINVISOL</div>
+              <div class="ko_title">신비솔</div>
+              <div class="tag">#대사성의약품</div>
+              <div class="icon_list">
+                <div class="icon_wrap">
+                  <img src="../img/icon/animal_01.png" alt="icon" />
+                </div>
+                <div class="icon_wrap">
+                  <img src="../img/icon/animal_02.png" alt="icon" />
+                </div>
+                <div class="icon_wrap">
+                  <img src="../img/icon/animal_03.png" alt="icon" />
+                </div>
+              </div>
+              <div class="desc">
+                닭, 돼지, 소의 식욕촉진, 이뇨작용, 스트레스후의 식욕회복,
+                모돈회전율 증가, 비육개선, 산란율, 부화율의 개선, 면역력
+                증진하는 약품
+              </div>
+            </div>
+          </div>
+
+          <div class="inner fun_inner">
+            <h2>FUNCTION</h2>
+            <div class="fun_wrap">
+              <div class="fun_column">
+                <div class="fun_name">Product form</div>
+                <div class="fun_desc">황색 내지 황갈색의 액체</div>
+              </div>
+
+              <div class="fun_column">
+                <div class="fun_name">Classification</div>
+                <div class="fun_desc">
+                  닭, 돼지, 소의 식욕촉진, 이뇨작용, 스트레스후의 식욕회복,
+                  모돈회전율 증가, 비육개선, 산란율, 부화율의 개선, 면역력 증진
+                </div>
+              </div>
+              <div class="fun_column">
+                <div class="fun_name">Main Ingredient</div>
+                <div class="fun_desc">
+                  아래의 축종별 용량을 1일량으로 하여 경구 투여 <br />
+                  닭 : 음수 또는 사료에 0.1%~0.2% (음수 1L당 본제 1~2ML)로
+                  혼합하여 경구 투여<br />
+                  돼지 : 자돈 : 1일 두당 0.5~1ML 중돈 : 1일 두당 2~5ML 성돈 :
+                  1일 두당 5~10ML<br />
+                  소 : 송아지 : 1일 두당 2~5ML 중송아지 : 1일 두당 6~10ML 젖소,
+                  비육우 : 1일 두당 10~20ML
+                </div>
+              </div>
+              <div class="fun_column">
+                <div class="fun_name">
+                  Content and
+                  <div>Method of Intake</div>
+                </div>
+                <div class="fun_desc">100ML, 500ML,1L,5L,10L</div>
+              </div>
+              <div class="fun_column">
+                <div class="fun_name">Exporting Country</div>
+                <div class="fun_desc">
+                  저장방법 : 밀폐된 용기에 넣어 10~25℃의 실온에 보관할 것<br />
+                  유효기간 : 18개월
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="inner btn_inner">
+            <div class="view_list web_ver">
+              <a href="productLivestock.html" class="view_btn">
+                <div class="bar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                View list
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec_03">
+          <div class="inner">
+            <div class="page_wrap">
+              <div class="tag">View more #For cattle</div>
+              <div class="btn_column">
+                <div class="swiper_btn prev_btn"></div>
+                <div class="swiper_btn next_btn"></div>
+              </div>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card_column">
+                    <div class="img_col">
+                      <img
+                        src="../img/sample_01.png"
+                        alt="product"
+                        class="product"
+                      />
+                      <div class="animal_icon">
+                        <img src="../img/icon/animal_01.png" alt="icon" />
+                      </div>
+                    </div>
+                    <div class="info">
+                      <div class="title">Foison_골든 스위트 5000</div>
+                      <div class="desc">
+                        향감미제 전문 제조업체 Weifang Foison의 감미제
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card_column">
+                    <div class="img_col">
+                      <img
+                        src="../img/sample_01.png"
+                        alt="product"
+                        class="product"
+                      />
+                      <div class="animal_icon">
+                        <img src="../img/icon/animal_01.png" alt="icon" />
+                      </div>
+                      <div class="detail_bg"></div>
+                    </div>
+                    <div class="info">
+                      <div class="title">Foison_골든 스위트 5000</div>
+                      <div class="desc">
+                        향감미제 전문 제조업체 Weifang Foison의 감미제
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card_column">
+                    <div class="img_col">
+                      <img
+                        src="../img/sample_01.png"
+                        alt="product"
+                        class="product"
+                      />
+                      <div class="animal_icon">
+                        <img src="../img/icon/animal_01.png" alt="icon" />
+                      </div>
+                      <div class="detail_bg"></div>
+                    </div>
+                    <div class="info">
+                      <div class="title">Foison_골든 스위트 5000</div>
+                      <div class="desc">
+                        향감미제 전문 제조업체 Weifang Foison의 감미제
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card_column">
+                    <div class="img_col">
+                      <img
+                        src="../img/sample_01.png"
+                        alt="product"
+                        class="product"
+                      />
+                      <div class="animal_icon">
+                        <img src="../img/icon/animal_01.png" alt="icon" />
+                      </div>
+                      <div class="detail_bg"></div>
+                    </div>
+                    <div class="info">
+                      <div class="title">Foison_골든 스위트 5000</div>
+                      <div class="desc">
+                        향감미제 전문 제조업체 Weifang Foison의 감미제
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card_column">
+                    <div class="img_col">
+                      <img
+                        src="../img/sample_01.png"
+                        alt="product"
+                        class="product"
+                      />
+                      <div class="animal_icon">
+                        <img src="../img/icon/animal_01.png" alt="icon" />
+                      </div>
+                      <div class="detail_bg"></div>
+                    </div>
+                    <div class="info">
+                      <div class="title">Foison_골든 스위트 5000</div>
+                      <div class="desc">
+                        향감미제 전문 제조업체 Weifang Foison의 감미제
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card_column">
+                    <div class="img_col">
+                      <img
+                        src="../img/sample_01.png"
+                        alt="product"
+                        class="product"
+                      />
+                      <div class="animal_icon">
+                        <img src="../img/icon/animal_01.png" alt="icon" />
+                      </div>
+                      <div class="detail_bg"></div>
+                    </div>
+                    <div class="info">
+                      <div class="title">Foison_골든 스위트 5000</div>
+                      <div class="desc">
+                        향감미제 전문 제조업체 Weifang Foison의 감미제
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card_column">
+                    <div class="img_col">
+                      <img
+                        src="../img/sample_01.png"
+                        alt="product"
+                        class="product"
+                      />
+                      <div class="animal_icon">
+                        <img src="../img/icon/animal_01.png" alt="icon" />
+                      </div>
+                      <div class="detail_bg"></div>
+                    </div>
+                    <div class="info">
+                      <div class="title">Foison_골든 스위트 5000</div>
+                      <div class="desc">
+                        향감미제 전문 제조업체 Weifang Foison의 감미제
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card_column">
+                    <div class="img_col">
+                      <img
+                        src="../img/sample_01.png"
+                        alt="product"
+                        class="product"
+                      />
+                      <div class="animal_icon">
+                        <img src="../img/icon/animal_01.png" alt="icon" />
+                      </div>
+                      <div class="detail_bg"></div>
+                    </div>
+                    <div class="info">
+                      <div class="title">Foison_골든 스위트 5000</div>
+                      <div class="desc">
+                        향감미제 전문 제조업체 Weifang Foison의 감미제
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card_column">
+                    <div class="img_col">
+                      <img
+                        src="../img/sample_01.png"
+                        alt="product"
+                        class="product"
+                      />
+                      <div class="animal_icon">
+                        <img src="../img/icon/animal_01.png" alt="icon" />
+                      </div>
+                      <div class="detail_bg"></div>
+                    </div>
+                    <div class="info">
+                      <div class="title">Foison_골든 스위트 5000</div>
+                      <div class="desc">
+                        향감미제 전문 제조업체 Weifang Foison의 감미제
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer id="footer">
+        <div class="inner">
+          <img
+            src="../img/logo_footer.png"
+            alt="logo"
+            title="logo"
+            class="logo"
+          />
+          <div class="content">
+            <div class="wapper">
+              <div class="column">
+                <div class="name co_name">ADBIOTECH Co., Ltd.</div>
+                <div>CEO : Hong-gul Cheong</div>
+                <div>Business registration number : 215-81-93416</div>
+              </div>
+              <div class="column">
+                <div class="name">CONTACT</div>
+                <div class="info">
+                  <div>
+                    Telephone: 033-261-4907
+                    <span class="bar"></span>
+                  </div>
+                  <div>
+                    Fax: 033-261-4920
+                    <span class="bar"></span>
+                  </div>
+                  <div>email: gildong@domain.com</div>
+                </div>
+                <div>
+                  Address: 39 Geodanji 1-gil, Dongnae-myeon, Chuncheon-si,
+                  Gangwon-do
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Related websites</button>
+                <div class="dropdown-content">
+                  <a href="#">Home</a>
+                  <a href="#">company introduction</a>
+                  <a href="#">product description</a>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              COPYRIGHT © 2021 ADBioTech., All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../js/swiper/swiper.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".next_btn",
+          prevEl: ".prev_btn",
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          414: {
+            slidesPerView: 1,
+          },
+        },
+      });
+    </script>
+
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
