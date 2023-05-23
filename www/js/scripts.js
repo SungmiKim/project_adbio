@@ -1,3 +1,53 @@
+//F12 및 우클릭 방지
+$(function () {
+  //마우스 우클릭을 했을때 브라우저 기본 이벤트 제어 (우클릭 방지)
+  if (window.addEventListener) {
+    window.addEventListener(
+      "contextmenu",
+      function (e) {
+        try {
+          if (typeof e != "undefined") {
+            e.preventDefault();
+            return false;
+          } else {
+            return false;
+          }
+        } catch (e) {}
+      },
+      false
+    );
+  } else {
+    window.attachEvent("oncontextmenu", function (e) {
+      try {
+        if (typeof e != "undefined") {
+          e.preventDefault();
+          return false;
+        } else {
+          return false;
+        }
+      } catch (e) {}
+    });
+  }
+  var handlemouseEvent = function (e) {
+    try {
+      if (typeof e == "undefined") {
+        if (window.event.button && window.event.button == "2") {
+          return false;
+        }
+      } else if ((e.which && e.which == 3) || (e.button && e.button == 2)) {
+        e.preventDefault();
+        return false;
+      } else if (e.keyCode == 123) {
+        //F12방지
+        e.preventDefault();
+        return false;
+      }
+    } catch (e) {}
+  };
+  window.onkeydown = handlemouseEvent;
+  window.onkeyup = handlemouseEvent;
+});
+
 // 헤더 메뉴
 function showMenu() {
   var windowWidth = $(window).width();
@@ -34,9 +84,7 @@ function closeMenu() {
 
 // 모바일 메뉴
 function dropMoMenu(num) {
-  $("#menu .menu_step01 .wrap:not(.menu0" + num + " .wrap)").removeClass(
-    "show"
-  );
+  $("#menu .menu_step01 .wrap:not(.menu0" + num + " .wrap)").removeClass("show");
   $("#menu .menu0" + num + " .wrap").toggleClass("show");
 }
 

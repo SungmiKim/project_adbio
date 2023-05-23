@@ -1,13 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <title>(주)애드바이오텍</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css
+"
+      rel="stylesheet"
+    />
   </head>
-  <script>
-    window.location.href = "./kor/index.html";
-  </script>
-  <body></body>
+
+  <style>
+    .preview-container {
+      height: 100vh;
+      background-color: #212832;
+    }
+    .preview_wrap {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #fff;
+      height: 60px;
+      border-bottom: 1px solid #cccccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+    }
+    .preview_wrap button {
+      border-radius: 100%;
+      border: 1px solid #cccccc;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .preview_wrap button.on {
+      background: #d3d4d6;
+    }
+
+    .preview_wrap button + button {
+      margin-left: 10px;
+    }
+    .preview_wrap svg {
+      width: 24px;
+    }
+    iframe {
+      background-color: #fff;
+      position: absolute;
+      height: calc(100% - 60px);
+      width: 100%;
+      border: none;
+      margin-top: 60px;
+      transition: width 1s;
+      left: 50%;
+      transform: translate(-50%, 0%);
+    }
+
+    iframe.mobile[data-num="1"] {
+      width: 768px;
+    }
+    iframe.mobile[data-num="2"] {
+      width: 375px;
+      height: 667px;
+      top: calc(50% - 60px);
+      transform: translate(-50%, -50%);
+    }
+
+    @media all and (max-width: 768px) {
+      body {
+        overflow: hidden;
+      }
+    }
+
+    @media all and (max-width: 768px) {
+      .preview_wrap {
+        display: none;
+      }
+      iframe {
+        background-color: #fff;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        border: none;
+        margin-top: 0;
+        transition: none;
+        left: 0;
+        transform: none;
+      }
+    }
+  </style>
+  <body>
+    <div class="preview-container">
+      <!-- 포트폴리오용 -->
+      <div class="preview_wrap">
+        <button class="desktopToggle on">
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect width="48" height="48" fill="url(#pattern0)" fill-opacity="0.4" />
+            <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_778_5" transform="scale(0.0208333)" />
+              </pattern>
+              <image
+                id="image0_778_5"
+                width="48"
+                height="48"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/ElEQVR4nO2YTWrCYBRFzwaslA5rxm6nk3aPlUAmkm7FsU61NNnALcJXsEmsHxj7XvAduLP83JObTAJBEJxSACXQAnKWFqiA5V/lDw6K6kI+U9cepYNyysxqSMDja6MzaYYEugd5Q5f6hcCNUSxgjGIBYxQLGKNYwBjFAsYoFjBGsYAxigWM0d0tIOfpYV1I3gTWwDOwAOopCixOrl38h0A7IYGvIYFq5JvUSeJY/mPka78PCSzTj1M5z76z7i+K9OO0cVBUnTTpyZ8tPwbzjCIzHPOWIfCCU56AXYbABnjEEQ/pyeeU/8kWeE3nmnPtx2lOCFgz+QWCgAnzDcCJ+blNAuIfAAAAAElFTkSuQmCC"
+              />
+            </defs>
+          </svg>
+        </button>
+        <button class="tabletToggle">
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M35.5 4H12.1667C9.86667 4 8 5.86667 8 8.16667V39.8333C8 42.1333 9.86667 44 12.1667 44H35.5C37.8 44 39.6667 42.1333 39.6667 39.8333V8.16667C39.6667 5.86667 37.8 4 35.5 4ZM23.8333 42.3333C22.45 42.3333 21.3333 41.2167 21.3333 39.8333C21.3333 38.45 22.45 37.3333 23.8333 37.3333C25.2167 37.3333 26.3333 38.45 26.3333 39.8333C26.3333 41.2167 25.2167 42.3333 23.8333 42.3333ZM36.3333 35.6667H11.3333V9H36.3333V35.6667Z"
+              fill="black"
+              fill-opacity="0.4"
+            />
+          </svg>
+        </button>
+        <button class="mobileToggle">
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_778_8)">
+              <path
+                d="M31 6H17.9091C15.1927 6 13 8.19273 13 10.9091V37.0909C13 39.8073 15.1927 42 17.9091 42H31C33.7164 42 35.9091 39.8073 35.9091 37.0909V10.9091C35.9091 8.19273 33.7164 6 31 6ZM27.7273 38.7273H21.1818V37.0909H27.7273V38.7273ZM33.0455 33.8182H15.8636V10.9091H33.0455V33.8182Z"
+                fill="black"
+                fill-opacity="0.4"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_778_8">
+                <rect width="48" height="48" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
+      </div>
+      <iframe id="myFrame" src="./www/kor/index.html" frameborder="0" data-num="0"></iframe>
+      <script src="./www/js/scripts.js"></script>
+      <script>
+        $(".preview_wrap button").click(function () {
+          $(".preview_wrap button").removeClass("on");
+          document.getElementById("myFrame").contentDocument.location.reload(true);
+          $(this).addClass("on");
+          if (!$(this).hasClass("desktopToggle")) {
+            $("iframe").addClass("mobile");
+          } else {
+            $("iframe").removeClass("mobile");
+          }
+
+          if ($(this).hasClass("tabletToggle")) {
+            $("iframe").attr("data-num", 1);
+          }
+          if ($(this).hasClass("mobileToggle")) {
+            $("iframe").attr("data-num", 2);
+          }
+        });
+      </script>
+    </div>
+  </body>
 </html>
